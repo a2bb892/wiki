@@ -17,3 +17,5 @@ Based on the [Web Thing REST API](https://moziot.github.io/wot/) which will be a
 - **subscribe()**  // What kinds of events or changes we can listen or subscribe to from ZigBee/Z-Wave devices?
 
 Does this make sense? What have I missed?
+
+See issue for discussion https://github.com/moziot/gateway/issues/1
