@@ -4,7 +4,16 @@
 
 To make sure you have the latest version of OpenZWave we recommend you download and build the source yourself.
 
-### Linux & Mac OS
+### Linux
+
+First you need to install pkg-config.
+
+On Ubuntu:
+```
+ $ sudo apt-get install pkg-config
+```
+
+Then download and build the OpenZWave source code:
 
 ```
 $ cd
@@ -13,7 +22,19 @@ $ cd open-zwave
 $ make && sudo make install
 ```
 
-## Download
+### Mac OS
+Install pkg-config following the instructions [here](http://macappstore.org/pkg-config/).
+
+Then download and build the OpenZWave source code:
+
+```
+$ cd
+$ git clone https://github.com/OpenZWave/open-zwave.git
+$ cd open-zwave
+$ make && sudo make install
+```
+
+## Download a Binary
 
 Alternatively you can try installing a pre-built binary for your operating system.
 
