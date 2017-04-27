@@ -16,7 +16,7 @@ Boot the Raspberry Pi (with a keyboard and display plugged in) and login
 * Username: `pi`
 * Password: `raspberry`
 
-## Set up WiFi
+## Set up WiFi (Optional)
 
 (If you already set up WiFi using NOOBS or you're plugging in an Ethernet cable you can skip this step)
 
@@ -35,7 +35,7 @@ At this point, wpa-supplicant will normally notice a change has occurred within 
 
 You can verify if it has successfully connected using `ifconfig wlan0`. If the inet addr field has an address beside it, the Pi has connected to the network. If not, check your password and SSID are correct. 
 
-## Enable SSHD
+## Enable SSH Server (Optional)
 
 This will allow you to log into the Pi remotely so you won't need to keep it plugged into a display and keyboard.
 
