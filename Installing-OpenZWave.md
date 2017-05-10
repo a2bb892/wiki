@@ -21,6 +21,12 @@ $ git clone https://github.com/OpenZWave/open-zwave.git
 $ cd open-zwave
 $ make && sudo make install
 ```
+I found that this installed libopenzwave.so.1.4 into `/usr/local/lib64` which isn't in the default search location for shared libraies. The (node-openzwave-shared page)[https://github.com/OpenZWave/node-openzwave-shared] recommendation is to put a symlink into `/usr/local/lib` and that seems reasonable to me. I also had to run ldconfig in order to update the cache.
+```
+$ sudo ln -s /usr/local/lib64/libopenzwave.so /usr/local/lib/libopenzwave.so
+$ sudo ln -s /usr/local/lib64/libopenzwave.so.1.4 /usr/local/lib/libopenzwave.so.1.4
+$ sudo ldconfig
+```
 
 ### Mac OS
 Install pkg-config following the instructions [here](http://macappstore.org/pkg-config/).
