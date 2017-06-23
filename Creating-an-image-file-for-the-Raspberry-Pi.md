@@ -51,7 +51,7 @@ network={
 ```
 This will allow the RPi to connect to a wireless network automatically.
 
-# Change the hostname of the RPi (optional)
+## Change the hostname of the RPi (optional)
 
 Edit the hostname found in `/media/USERNAME/f2100b2f-ed84-4647-b5ae-089280112716/etc/hostname` If you do this, then
 you'll need to use that hostname followed by .local when ssh'ing into the board below.
