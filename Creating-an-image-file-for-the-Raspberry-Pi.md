@@ -56,6 +56,11 @@ This will allow the RPi to connect to a wireless network automatically.
 Edit the hostname found in `/media/USERNAME/f2100b2f-ed84-4647-b5ae-089280112716/etc/hostname` If you do this, then
 you'll need to use that hostname followed by .local when ssh'ing into the board below.
 
+You'll also need to edit the etc/hosts file and find the line that looks like:
+```
+127.0.1.1	raspberrypi
+```
+(it was the last line of the file in the image currently being used). Change `raspberrypi` to match the hostname in the etc/hostname file.
 # Eject the SD card from the host and put it in the RPi and power on
 
 Once it's booted, you should be able to do:
