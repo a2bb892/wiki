@@ -26,7 +26,7 @@ touch /media/USERNAME/boot/ssh
 
 ```
 cd /media/USERNAME/f2100b2f-ed84-4647-b5ae-089280112716/home/pi
-wget https://raw.githubusercontent.com/mozilla-iot/gateway/master/install.sh
+sudo wget https://raw.githubusercontent.com/mozilla-iot/gateway/master/install.sh
 sudo chmod +x install.sh
 ```
 
