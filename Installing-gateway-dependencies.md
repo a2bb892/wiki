@@ -16,9 +16,9 @@ Close the terminal window and reopen.
 
 Verify nvm is in your path by typing the command `nvm` You should see the help output.
 ```
-nvm install v7.7.2
-nvm use v7.7.2
-nvm alias default v7.7.2
+nvm install v7.10.1
+nvm use v7.10.1
+nvm alias default v7.10.1
 ```
 Verify:
 
