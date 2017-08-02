@@ -24,8 +24,8 @@ Verify:
 
 ```
 some-prompt> npm --version
-4.1.2
+4.2.0
 
 some-prompt> node --version
-v7.7.2
+v7.10.1
 ```
