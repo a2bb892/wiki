@@ -17,13 +17,13 @@ chmod +x ~/bin/rpxc
 # Install some prerequisites
 
 ```
+sudo $(which -p rpxc) apt update
+sudo $(which -p rpxc) apt upgrade
+
 rpxc install-raspbian libudev-dev
 rpxc install-debian pkg-config
 rpxc install-debian python
 rpxc install-debian python2.7
-
-sudo rpxc apt upgrade
-sudo rpxc apt update
 ```
 
 # Build stuff inside the docker image.
