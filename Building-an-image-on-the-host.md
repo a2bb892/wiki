@@ -10,7 +10,7 @@ sudo apt install docker.io apparmor apparmor-utils qemu-user-static wget
 # Create a wrapper
 
 ```
-docker run sdthirlwall/raspberry-pi-cross-compiler > ~/bin/rpxc
+sudo docker run sdthirlwall/raspberry-pi-cross-compiler > ~/bin/rpxc
 chmod +x ~/bin/rpxc
 ```
 
