@@ -93,9 +93,15 @@ sudo poweroff
 
 # Remove the SDcard and make an image of it
 
+When you stick the sdcard into the host it will most likely automatically mount both partitions, so you'll need to unmount those first (don't eject using the UI, but rather umount from the command line):
+```
+umount /dev/sdh1
+umount /dev/sdh2
+```
+
 Replace `/dev/sdh` with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions.
 ```
 sudo dd status=progress bs=10M of=2017-04-10-gateway-base.img if=/dev/sdh
 zip 2017-04-10-gateway-base.zip 2017-04-10-gateway-base.img
-rm 2017-04-10-gateway-base.img
+sudo rm 2017-04-10-gateway-base.img
 ```
