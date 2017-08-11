@@ -1,13 +1,12 @@
 # Download and unpack Raspbian Jessie Lite
 ```
 wget https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-04-10/2017-04-10-raspbian-jessie-lite.zip
-unzip 2017-04-10-raspbian-jessie-lite.zip
 ```
 Use a small SD card (2 Gb) to keep the image file size small. Unmount (don't eject) any volumes on the sdcard. If this is a new blank card then there will most likely only be a single partition. If this SD card has previously been formatted for the RPi, then there will be 2 partitions.
 ```
 sudo umount /dev/sdh1
 sudo umount /dev/sdh2
-sudo dd status=progress bs=10M if=2017-04-10-raspbian-jessie-lite.img of=/dev/sdh
+sudo unzip -p 2017-04-10-raspbian-jessie-lite.zip | dd status=progress bs=10M of=/dev/sdh
 ```
 Note that the of= specifies the block device for the entire device (i.e. /dev/sdh versus /dev/sdh1 which refers to a particular partition).
 
@@ -85,3 +84,18 @@ and supply a password of raspberry. Note: if you're doing this several times, yo
 ```
 Go and get a coffee. If everything goes well, you should be able to reboot and the gateway should be running.
 
+# Shutdown
+
+So a clean shutdown of the Raspberry Pi
+```
+sudo poweroff
+```
+
+# Remove the SDcard and make an image of it
+
+Replace /dev/sdh with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions. i.e. use `/dev/sdh` or `/dev/mmcblk0` and not `/dev/sdh1` or `/dev/mmcblk0p1`. A more technical way of saying this is ensure that when you mask the minor number of the block device you're using with 0x0F then you should get zero.
+```
+sudo dd status=progress bs=10M of=2017-04-10-gateway-base.img if=/dev/sdh
+zip 2017-04-10-gateway-base.zip 2017-04-10-gateway-base.img
+rm 2017-04-10-gateway-base.img
+```
