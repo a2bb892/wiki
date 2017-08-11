@@ -8,7 +8,7 @@ sudo umount /dev/sdh1
 sudo umount /dev/sdh2
 unzip -p 2017-04-10-raspbian-jessie-lite.zip | sudo dd status=progress bs=10M of=/dev/sdh
 ```
-Note that the of= specifies the block device for the entire device (i.e. /dev/sdh versus /dev/sdh1 which refers to a particular partition).
+Note that the of= specifies the block device for the entire device. i.e. use `/dev/sdh` or `/dev/mmcblk0` and not `/dev/sdh1` or `/dev/mmcblk0p1`. A more technical way of saying this is ensure that when you mask the minor number of the block device you're using with 0x0F then you should get zero.
 
 # Do host prep of the image
 
@@ -93,7 +93,7 @@ sudo poweroff
 
 # Remove the SDcard and make an image of it
 
-Replace /dev/sdh with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions. i.e. use `/dev/sdh` or `/dev/mmcblk0` and not `/dev/sdh1` or `/dev/mmcblk0p1`. A more technical way of saying this is ensure that when you mask the minor number of the block device you're using with 0x0F then you should get zero.
+Replace `/dev/sdh` with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions.
 ```
 sudo dd status=progress bs=10M of=2017-04-10-gateway-base.img if=/dev/sdh
 zip 2017-04-10-gateway-base.zip 2017-04-10-gateway-base.img
