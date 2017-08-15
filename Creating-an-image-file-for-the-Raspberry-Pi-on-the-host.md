@@ -12,4 +12,4 @@ Finally, run the following command from within the docket-moziot directory:
 ```
 ./gateway/image/add-gateway.sh -o openzwave.tar.gz -g gateway.tar.gz 2017-04-10-gateway-base.zip
 ```
-This will create a file called: `2017-04-10-gateway-base-final.img` which an then be flashed to an sdcard using dd.
+This will create a file called: `2017-04-10-gateway-base-final.img` which can then be flashed to an sdcard using dd.
