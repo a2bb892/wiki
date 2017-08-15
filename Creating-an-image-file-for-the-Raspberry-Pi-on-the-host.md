@@ -8,7 +8,7 @@ Follow the directions [[here|Building-the-Raspberry-Pi-gateway-on-the-host]] to 
 
 # Add the Raspberry Pi gateway to the base image
 
-Finally, run the following command from within the docket-moziot directory:
+Finally, run the following command from within the docker-moziot directory:
 ```
 ./gateway/image/add-gateway.sh -o openzwave.tar.gz -g gateway.tar.gz 2017-04-10-gateway-base.zip
 ```
