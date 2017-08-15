@@ -17,8 +17,8 @@ chmod +x ~/bin/rpxc
 # Install some prerequisites
 
 ```
-sudo $(which -p rpxc) apt update
-sudo $(which -p rpxc) apt upgrade
+sudo $(type -p rpxc) apt update
+sudo $(type -p rpxc) apt upgrade
 
 rpxc install-raspbian libudev-dev
 rpxc install-debian pkg-config
