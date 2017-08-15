@@ -4,7 +4,7 @@ Follow the directions [[here|Creating-the-base-image-file-for-the-Raspberry-Pi]]
 
 # Build the Rapberry Pi version of the gateway
 
-Follow the direction [[here|Building-the-Raspberry-Pi-gateway-on-the-host]] to use docker to create a Raspberry Pi build of the gatewy on the host.
+Follow the directions [[here|Building-the-Raspberry-Pi-gateway-on-the-host]] to use docker to create a Raspberry Pi build of the gatewy on the host.
 
 # Add the Raspberry Pi gateway to the base image
 
