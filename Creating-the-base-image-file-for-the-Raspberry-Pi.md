@@ -82,7 +82,7 @@ and supply a password of raspberry. Note: if you're doing this several times, yo
 ```
 ./prepare-base.sh
 ```
-Go and get a coffee. If everything goes well, you should now have a usable base image, which the add-gateway.sh script can use.
+Go and get a coffee. If everything goes well, you should now have a usable base image, which the `add-gateway.sh` script can use.
 
 # Shutdown
 
