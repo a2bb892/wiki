@@ -23,13 +23,15 @@
 # Distribution Options
 * [npmjs.com](https://www.npmjs.com/)
 * Add-ons directory at iot.mozilla.org
+* Bundled into Gateway and disabled by default
 
 # Authentication Options
-* Access a global JWT variable?
-* OAuth?
+* Add-on specific JWT from `JSONWebToken.issueToken(-1)`
+* OAuth2 confidential client (unimplemented, JWT would expire and need to be renewed, user could manage the scope and permissions of add-ons)
 
 # APIs
 * Adapter API (mirroring the Web Thing WebSocket API over IPC)
+* Local HTTP/WS API: Talks to the Gateway through `node-fetch` and `ws` libraries. Currently in use by the Rules Engine.
 
 # Open Questions
 * Do we actually want to provide user installable add-ons and the security risks that brings, or should all add-ons have to be added at build time?
