@@ -30,3 +30,6 @@
 
 # APIs
 * Adapter API (mirroring the Web Thing WebSocket API over IPC)
+
+# Open Questions
+* Do we actually want to provide user installable add-ons and the security risks that brings, or should all add-ons have to be added at build time?
