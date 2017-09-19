@@ -25,9 +25,12 @@ You can also use a tool like [Postman](https://www.getpostman.com/) which will a
 
 ## Debug Controller URLs
 
+Portions of the URL which are in bold should be replaced with an appropriate value.
+
 | URL | Op | Description |
 | --- | -- | ----------- |
 | /debug/devices | GET | Returns all of the devices that the adapter manager knows about. The data returned may contain lots of internal information not exposed using the Web Thing representation. |
+| /debug/deviceIds | GET | Returns a list of device ids. |
 | /debug/device/**deviceId** | GET | Returns the information for a single device. |
 | /debug/device/**deviceId**/**propertyName** | GET | Returns the current value of **propertyName**. |
 | /debug/device/**deviceId**/**propertyName** | PUT | Sets the value of **propertyName**. |
