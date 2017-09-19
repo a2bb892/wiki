@@ -21,7 +21,7 @@ curl -v -H "Accept: application/json" https://localhost:4443/debug/devices/ -k |
 ```
 Using python's json.tool provides pretty formatting.
 
-You can also use a tool like [Postman](https://www.getpostman.com/) which will allow you to save requests. If you're using a self-signed certificate, make sure you turn off the "SSL certificate validation" setting (found in  File->Settings->General)
+You can also use a tool like [Postman](https://www.getpostman.com/) which will allow you to save requests. If you're using a self-signed certificate, make sure you turn off the "SSL certificate validation" setting (found in  File->Settings->General). Also remember to add a header "Accept" with a value "application/json" (no quotes needed) otherwise you'll get back an HTML response.
 
 ## Debug Controller URLs
 
