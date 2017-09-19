@@ -13,7 +13,7 @@ sudo systemctl stop mozilla-iot-gateway
 ```
 prior to starting the gateway with the debug controller enabled.
 
-## Verify debug controller is running
+## Verify that the debug controller is running
 
 You can verify that the debug controller has been enabled by issuing a command like this:
 ```
