@@ -58,9 +58,8 @@ Sent from the adapter to the gateway to register the adapter with the gateway.
 {
   messageType: 'registerAdapter',
   data: {
-    adapterId: 'adapterId-string', // unique adapter identifier.
+    adapterId: 'adapterId-string',
   },
-  id: 999, // unique id (sent in reply) for this message
 }
 ```
 The `adapterId` will be a unique to the adapter string (i.e. 'zwave'). The `id` field sent in the request will be copied to the reply, and can be used by the adapter to match up replies to requests.
@@ -72,60 +71,111 @@ Reply sent from the gateway back to the adapter.
   messageType: 'registerAdapterReply',
   data: {
     adapterId: 'adapterId-string',
-    ipcAddr: 'ipc:///tmp/gateway.adapter.xxx', // Name of pair channel allocated by the gateway to
-                                               // talk to this adapter. xxx will be replaced by the
-                                               // adapter id sent in the request.
-    idBase: 1000,  // Base message id to use for messages from the adapter to 
+    ipcAddr: 'ipc:///tmp/gateway.adapter.xxx',
   },
-  id: 999, // id copied from the request
 }
 ```
 The `xxx` in the `ipcAddr` will be replaced by the `adapterId`. This is the name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel.
 
 ## Adapter Messages
+
 ### addAdapter
+Sent from the adapter to the gateway to indicate that the adapter is ready.
+```
+{
+  messageType: 'addAdapter',
+  data: {
+    adapterId: 'adapterId-string',
+    name: 'name-of-the-adapter',
+  },
+}
+```
+
 ### handleDeviceAdded
-### handleDeviceRmoved
-### propertyChanged
+Sent from the adapter to the gateway to indicate that a new device has been added. Note that these may be sent before the addAdapter message is sent.
+```
+{
+  messageType: 'handleDeviceAdded',
+  data: device.asDict(),
+}
+```
+The device.asDict() will return a dictionary representation of the device. See the asDict() method in the Device class for details.
+
+### handleDeviceRemoved
+Sent from the adapter to the gateway to indicate that a previously added device has been removed.
+```
+{
+  messageType: 'handleDeviceRemoved',
+  data: {
+    id: deviceId,
+  },
+}
+```
+The deviceId should match the id field sent in the handleDeviceAdded notification.
+
 ### setProperty
-### setPropertyReply
+Sent from the gateway to the adapter to set the value of a property contained on the indicated device.
+```
+{
+  messageType: 'setProperty',
+  data: {
+    deviceId: 'device-id',
+    propertyName: 'name-of-property',
+    propertyValue: new-value,
+  },
+}
+```
+
+### propertyChanged
+Sent from the adapter to the gateway anytime a change in property value is detected. A propertyChanged notification will always be sent in response to a setProperty, regardless of whether the value actually changes or not.
+```
+{
+  messageType: 'propertyChanged',
+  data: {
+    deviceId: 'device-id',
+    propertyName: 'name-of-property',
+    propertyValue: updated-value,
+  },
+}
+```
+
 ### startPairing
+Sent from the gateway to the adapter to put the adapter into pairing mode.
+```
+{
+  messageType: 'startPairing',
+  data: {
+    timeout: timeoutInSeconds,
+  },
+}
+```
+
 ### cancelPairing
+Sent from the gateway to the adapter to cancel pairing mode.
+```
+{
+  messageType: 'cancelPairing',
+}
+```
+
 ### removeThing
+Sent from the gateway to the adapter to initiate device removal.
+```
+{
+  messageType: 'removeThing',
+  data: {
+    deviceId: 'device-id-to-remove',
+  },
+}
+```
+
 ### cancelRemoveThing
+Sent from the gateway to the adapter to cancel a previously initiated device removal.
 ```
 {
   messageType: '',
   data: {
-    x: '',
+    deviceId: 'device-id-to-remove',
   },
-  id: 999, // id copied from the request
-}
-```
-```
-{
-  messageType: '',
-  data: {
-    x: '',
-  },
-  id: 999, // id copied from the request
-}
-```
-```
-{
-  messageType: '',
-  data: {
-    x: '',
-  },
-  id: 999, // id copied from the request
-}
-```
-```
-{
-  messageType: '',
-  data: {
-    x: '',
-  },
-  id: 999, // id copied from the request
 }
 ```
