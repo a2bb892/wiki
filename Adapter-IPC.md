@@ -44,3 +44,88 @@ On the adapter size, the adapter manager proxy performs similar functionality.
 
 1. Start the gateway with the plugin adapter enabled.
 2. Start the test-plugin using the command `node load.js`
+
+# IPC Messages
+
+## Adapter Registration
+
+The following message and reply are used when an adapter registers itself with the gateway. The gateway opens a `rep` channel using `ipc:///tmp/gateway.adapterManager`, and the adapter should use a `req` channel.
+
+### registerAdapter
+
+Sent from the adapter to the gateway to register the adapter with the gateway.
+```
+{
+  messageType: 'registerAdapter',
+  data: {
+    adapterId: 'adapterId-string', // unique adapter identifier.
+  },
+  id: 999, // unique id (sent in reply) for this message
+}
+```
+The `adapterId` will be a unique to the adapter string (i.e. 'zwave'). The `id` field sent in the request will be copied to the reply, and can be used by the adapter to match up replies to requests.
+
+### registerAdapterReply
+Reply sent from the gateway back to the adapter.
+```
+{
+  messageType: 'registerAdapterReply',
+  data: {
+    adapterId: 'adapterId-string',
+    ipcAddr: 'ipc:///tmp/gateway.adapter.xxx', // Name of pair channel allocated by the gateway to
+                                               // talk to this adapter. xxx will be replaced by the
+                                               // adapter id sent in the request.
+    idBase: 1000,  // Base message id to use for messages from the adapter to 
+  },
+  id: 999, // id copied from the request
+}
+```
+The `xxx` in the `ipcAddr` will be replaced by the `adapterId`. This is the name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel.
+
+## Adapter Messages
+### addAdapter
+### handleDeviceAdded
+### handleDeviceRmoved
+### propertyChanged
+### setProperty
+### setPropertyReply
+### startPairing
+### cancelPairing
+### removeThing
+### cancelRemoveThing
+```
+{
+  messageType: '',
+  data: {
+    x: '',
+  },
+  id: 999, // id copied from the request
+}
+```
+```
+{
+  messageType: '',
+  data: {
+    x: '',
+  },
+  id: 999, // id copied from the request
+}
+```
+```
+{
+  messageType: '',
+  data: {
+    x: '',
+  },
+  id: 999, // id copied from the request
+}
+```
+```
+{
+  messageType: '',
+  data: {
+    x: '',
+  },
+  id: 999, // id copied from the request
+}
+```
