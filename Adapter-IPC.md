@@ -173,7 +173,7 @@ Sent from the gateway to the adapter to initiate device removal.
 Sent from the gateway to the adapter to cancel a previously initiated device removal.
 ```
 {
-  messageType: '',
+  messageType: 'cancelRemoveThing',
   data: {
     deviceId: 'device-id-to-remove',
   },
