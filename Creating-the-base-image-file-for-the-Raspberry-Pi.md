@@ -6,7 +6,7 @@ Use a small SD card (2 Gb) to keep the image file size small. Unmount (don't eje
 ```
 sudo umount /dev/sdh1
 sudo umount /dev/sdh2
-unzip -p 2017-04-10-raspbian-jessie-lite.zip | sudo dd status=progress bs=10M of=/dev/sdh
+unzip -p 2017-09-07-raspbian-stretch-lite.zip | sudo dd status=progress bs=10M of=/dev/sdh
 ```
 Note that the of= specifies the block device for the entire device. i.e. use `/dev/sdh` or `/dev/mmcblk0` and not `/dev/sdh1` or `/dev/mmcblk0p1`. A more technical way of saying this is ensure that when you mask the minor number of the block device you're using with 0x0F then you should get zero.
 
