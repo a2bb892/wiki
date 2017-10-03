@@ -1,6 +1,6 @@
 # Download and unpack Raspbian Jessie Lite
 ```
-wget https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-04-10/2017-04-10-raspbian-jessie-lite.zip
+wget https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-09-08/2017-09-07-raspbian-stretch-lite.zip
 ```
 Use a small SD card (2 Gb) to keep the image file size small. Unmount (don't eject) any volumes on the sdcard. If this is a new blank card then there will most likely only be a single partition. If this SD card has previously been formatted for the RPi, then there will be 2 partitions.
 ```
