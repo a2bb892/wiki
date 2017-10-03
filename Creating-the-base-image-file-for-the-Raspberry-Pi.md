@@ -101,7 +101,7 @@ umount /dev/sdh2
 
 Replace `/dev/sdh` with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions.
 ```
-sudo dd status=progress bs=10M of=2017-04-10-gateway-base.img if=/dev/sdh
-zip 2017-04-10-gateway-base.zip 2017-04-10-gateway-base.img
-sudo rm 2017-04-10-gateway-base.img
+sudo dd status=progress bs=10M of=2017-09-07-gateway-base.img if=/dev/sdh
+zip 2017-09-07-gateway-base.img.zip 2017-09-07-gateway-base.img
+sudo rm 2017-09-07-gateway-base.img
 ```
