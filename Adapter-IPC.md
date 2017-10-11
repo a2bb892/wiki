@@ -56,26 +56,26 @@ The following message and reply are used when an adapter registers itself with t
 Sent from the adapter to the gateway to register the adapter with the gateway.
 ```
 {
-  messageType: 'registerAdapter',
+  messageType: 'registerPlugin',
   data: {
-    adapterId: 'adapterId-string',
+    pluginId: 'pluginId-string',
   },
 }
 ```
-The `adapterId` will be a unique to the adapter string (i.e. 'zwave'). The `id` field sent in the request will be copied to the reply, and can be used by the adapter to match up replies to requests.
+The `pluginId` will be unique to the plugin, and should match the key used in the config for `adapters`. (i.e. 'zwave').
 
-### registerAdapterReply
+### registerPluginReply
 Reply sent from the gateway back to the adapter.
 ```
 {
-  messageType: 'registerAdapterReply',
+  messageType: 'registerPluginReply',
   data: {
-    adapterId: 'adapterId-string',
-    ipcAddr: 'ipc:///tmp/gateway.adapter.xxx',
+    pluginId: 'pluginId-string',
+    ipcBaseAddr: 'gateway.plugin.xxx',
   },
 }
 ```
-The `xxx` in the `ipcAddr` will be replaced by the `adapterId`. This is the name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel.
+The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the base portion name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel. The full ipc address will be combined remaining portion will be determined based on the protocol specified via the config ipc.protocol setting. 
 
 ## Adapter Messages
 
