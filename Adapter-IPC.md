@@ -42,8 +42,15 @@ On the adapter size, the adapter manager proxy performs similar functionality.
 
 # How to run the test-plugin
 
-1. Start the gateway with the plugin adapter enabled.
-2. Start the test-plugin using the command `node adapter-loader.js test_plugin` from the directory containing the adapter-loader.js file.
+1. Start the gateway with the example plugin enabled (i.e. the config file should have an entry like this:
+```
+    example_plugin: {
+      enabled: true,
+      plugin: true,
+      path: './adapters/example-plugin',
+    },
+```
+2. Start the test-plugin using the command `node src/adapter-loader.js example_plugin` from the top level directory in the repository (i.e. the directory containing the `src` and `config` directories).
 
 # IPC Messages
 
