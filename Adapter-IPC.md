@@ -75,7 +75,7 @@ Reply sent from the gateway back to the adapter.
   },
 }
 ```
-The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the base portion name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel. The full ipc address will be combined remaining portion will be determined based on the protocol specified via the config ipc.protocol setting. 
+The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the base portion name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel. The full ipc address will be  combined remaining portion will be determined based on the protocol specified via the config ipc.protocol setting. 
 
 ## Adapter Messages
 
