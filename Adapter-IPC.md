@@ -51,9 +51,9 @@ On the adapter size, the adapter manager proxy performs similar functionality.
 
 The following message and reply are used when an adapter registers itself with the gateway. The gateway opens a `rep` channel using `ipc:///tmp/gateway.adapterManager`, and the adapter should use a `req` channel.
 
-### registerAdapter
+### registerPlugin
 
-Sent from the adapter to the gateway to register the adapter with the gateway.
+Sent from the plugin to the gateway to register the plugin with the gateway.
 ```
 {
   messageType: 'registerPlugin',
@@ -65,7 +65,7 @@ Sent from the adapter to the gateway to register the adapter with the gateway.
 The `pluginId` will be unique to the plugin, and should match the key used in the config for `adapters`. (i.e. 'zwave').
 
 ### registerPluginReply
-Reply sent from the gateway back to the adapter.
+Reply sent from the gateway back to the plugin.
 ```
 {
   messageType: 'registerPluginReply',
@@ -75,7 +75,14 @@ Reply sent from the gateway back to the adapter.
   },
 }
 ```
-The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the base portion name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel. The full ipc address will be  combined remaining portion will be determined based on the protocol specified via the config ipc.protocol setting. 
+The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the base portion name of the per-adapter `pair` IPC channel that the gateway allocates for the adapter. All further communications between the gateway and the adapter should take place on this channel. The full ipc address will be constructed based on the protocol specified via the config ipc.protocol setting.
+
+| Protocol | Full IPC address |
+| -------- | ---------------- |
+| ipc | ipc:///tmp/{ipcBaseAddr} |
+| inproc | inproc://{prefix}-{ipcBaseAddr} |
+
+`inproc` is currently only used for testing, and `{prefix}` comes from the `AppInstance` class via the `get` method.
 
 ## Adapter Messages
 
@@ -85,6 +92,7 @@ Sent from the adapter to the gateway to indicate that the adapter is ready.
 {
   messageType: 'addAdapter',
   data: {
+    pluginId: 'pluginId-string',
     adapterId: 'adapterId-string',
     name: 'name-of-the-adapter',
   },
