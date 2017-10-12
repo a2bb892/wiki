@@ -210,6 +210,52 @@ Sent from the gateway to the adapter to cancel a previously initiated device rem
 }
 ```
 
+### unloadAdapter
+Sent from the gateway to a plugin to tell a particular adapter to unload itself, and free up any resources that it may be using.
+```
+{
+  messageType: 'unloadAdapter',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+  },
+}
+```
+
+### adapterUnloaded
+Sent from a plugin to the gateway to indicate that an adapter has completed unloading itself.
+```
+{
+  messageType: 'adapterUnloaded',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+  },
+}
+```
+
+### unloadPlugin
+Sent from the gateway to a plugin to tell the plugin that it should free up any resources its using, including closing the plugin side of the IPC channel.
+```
+{
+  messageType: 'unloadPlugin',
+  data: {
+    pluginId: 'pluginId-string',
+  },
+}
+```
+
+### pluginUnloaded
+Sent from the plugin to the gateway to indicate that it has completed unloaded. The plugin should keep the IPC channel open for a small amount of time after sending this message (about 500 milliseconds) to give the gateway a chance to see the message.
+```
+{
+  messageType: 'pluginUnloaded',
+  data: {
+    pluginId: 'pluginId-string',
+  },
+}
+```
+
 ## Mock messages
 
 There are some additional messages used for testing, which are only sent to the MockAdapter. See `src/adapters/mock/mock-adapter.js` for details.
