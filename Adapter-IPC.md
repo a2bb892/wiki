@@ -47,7 +47,7 @@ On the adapter size, the adapter manager proxy performs similar functionality.
 
 # IPC Messages
 
-## Adapter Registration
+## Plugin Registration
 
 The following message and reply are used when an adapter registers itself with the gateway. The gateway opens a `rep` channel using `ipc:///tmp/gateway.adapterManager`, and the adapter should use a `req` channel.
 
@@ -83,6 +83,28 @@ The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the b
 | inproc | inproc://{prefix}-{ipcBaseAddr} |
 
 `inproc` is currently only used for testing, and `{prefix}` comes from the `AppInstance` class via the `get` method.
+
+### unloadPlugin
+Sent from the gateway to a plugin to tell the plugin that it should free up any resources its using, including closing the plugin side of the IPC channel.
+```
+{
+  messageType: 'unloadPlugin',
+  data: {
+    pluginId: 'pluginId-string',
+  },
+}
+```
+
+### pluginUnloaded
+Sent from the plugin to the gateway to indicate that it has completed unloaded. The plugin should keep the IPC channel open for a small amount of time after sending this message (about 500 milliseconds) to give the gateway a chance to see the message.
+```
+{
+  messageType: 'pluginUnloaded',
+  data: {
+    pluginId: 'pluginId-string',
+  },
+}
+```
 
 ## Adapter Messages
 
@@ -230,28 +252,6 @@ Sent from a plugin to the gateway to indicate that an adapter has completed unlo
   data: {
     pluginId: 'pluginId-string',
     adapterId: 'adapterId-string',
-  },
-}
-```
-
-### unloadPlugin
-Sent from the gateway to a plugin to tell the plugin that it should free up any resources its using, including closing the plugin side of the IPC channel.
-```
-{
-  messageType: 'unloadPlugin',
-  data: {
-    pluginId: 'pluginId-string',
-  },
-}
-```
-
-### pluginUnloaded
-Sent from the plugin to the gateway to indicate that it has completed unloaded. The plugin should keep the IPC channel open for a small amount of time after sending this message (about 500 milliseconds) to give the gateway a chance to see the message.
-```
-{
-  messageType: 'pluginUnloaded',
-  data: {
-    pluginId: 'pluginId-string',
   },
 }
 ```
