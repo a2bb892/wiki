@@ -86,6 +86,8 @@ The `xxx` in the `ipcBaseAddr` will be replaced by the `pluginId`. This is the b
 
 ## Adapter Messages
 
+All of the adapter messages include a `pluginId` and `adapterId` fields. `pluginId` should match the `pluginId` sent in the `registerPlugin` request, and `adapterId` should match the `adapterId` sent in the `addAdapter` request.
+
 ### addAdapter
 Sent from the adapter to the gateway to indicate that the adapter is ready.
 ```
@@ -104,10 +106,14 @@ Sent from the adapter to the gateway to indicate that a new device has been adde
 ```
 {
   messageType: 'handleDeviceAdded',
-  data: device.asDict(),
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    ... remaining fields from device.asDict() ...
+  },
 }
 ```
-The device.asDict() will return a dictionary representation of the device. See the asDict() method in the Device class for details.
+The device.asDict() will return a dictionary representation of the device. See the asDict() method in the Device class for details. The deviceId will be called simply `id`.
 
 ### handleDeviceRemoved
 Sent from the adapter to the gateway to indicate that a previously added device has been removed.
@@ -115,6 +121,8 @@ Sent from the adapter to the gateway to indicate that a previously added device 
 {
   messageType: 'handleDeviceRemoved',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     id: deviceId,
   },
 }
@@ -127,6 +135,8 @@ Sent from the gateway to the adapter to set the value of a property contained on
 {
   messageType: 'setProperty',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     deviceId: 'device-id',
     propertyName: 'name-of-property',
     propertyValue: new-value,
@@ -140,6 +150,8 @@ Sent from the adapter to the gateway anytime a change in property value is detec
 {
   messageType: 'propertyChanged',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     deviceId: 'device-id',
     propertyName: 'name-of-property',
     propertyValue: updated-value,
@@ -153,6 +165,8 @@ Sent from the gateway to the adapter to put the adapter into pairing mode.
 {
   messageType: 'startPairing',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     timeout: timeoutInSeconds,
   },
 }
@@ -163,6 +177,10 @@ Sent from the gateway to the adapter to cancel pairing mode.
 ```
 {
   messageType: 'cancelPairing',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+  },
 }
 ```
 
@@ -172,6 +190,8 @@ Sent from the gateway to the adapter to initiate device removal.
 {
   messageType: 'removeThing',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     deviceId: 'device-id-to-remove',
   },
 }
@@ -183,7 +203,13 @@ Sent from the gateway to the adapter to cancel a previously initiated device rem
 {
   messageType: 'cancelRemoveThing',
   data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
     deviceId: 'device-id-to-remove',
   },
 }
 ```
+
+## Mock messages
+
+There are some additional messages used for testing, which are only sent to the MockAdapter. See `src/adapters/mock/mock-adapter.js` for details.
