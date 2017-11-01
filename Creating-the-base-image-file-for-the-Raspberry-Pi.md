@@ -71,6 +71,8 @@ Make sure that you do a proper eject of the sdcard and wait for unwritten data t
 
 # Boot a Raspberry Pi using the SDCard
 
+**IMPORTANT** If you want the final image to be used on Raspberry Pi earlier than a an RPi 3 then the base image will need to be built on an earlier model of Raspberry Pi.
+
 Once it's booted, you should be able to login through the serial console or via ssh:
 ```
 ssh pi@raspberrypi.local
