@@ -2,6 +2,21 @@ High level overview of how the Adapter IPC works.
 
 Currently, the IPC code relies on a package called [nanomsg](http://nanomsg.org/) which has bindings for a variety of languages.
 
+## Why nanomsg?
+
+While searching for an IPC library to use, ZeroMQ seemed to come up as a logical choice. However, while investigating issues that ZeroMQ might have, I came across another library called nanomsg (written by the same author as ZeroMQ), which attempted to address those issues. This [article](http://bravenewgeek.com/a-look-at-nanomsg-and-scalability-protocols/) dicusses some of those issues.
+
+Here's a list of things which also made nanomsg favorable (in my mind).
+- nanomsg is licensed under an [MIT/X11](https://github.com/nanomsg/nanomsg/blob/master/COPYING) license, which is compatible with the MPL license used by the gateway project.
+- nanomsg is written in C, which simplifies the process of creating language bindings.
+- nanomsg has support for [numerous languages](http://nanomsg.org/documentation.html)
+- nanomsg is cross platform, and supports Linux, OSX, and Windows.
+- nanomsg has no further dependencies.
+- nanomsg is relatively small.
+- nanomsg is a pure comms layer and doesn't try to impose any restrictions on the content of the messages.
+- nanomsg is a message based IPC mechanism, versus an API based (i.e. RPC) mechanism, which seemed more suitable for sending JSON based messages.
+- nanomsg was written by the same author who wrote ZeroMQ and attempts to overcome some of the shortcomings that ZeroMQ had. This [page](http://nanomsg.org/documentation-zeromq.html) describes some of the differences between nanomsg and ZeroMQ.
+
 # Files
 
 A new adapter, called `plugin` was added. The contains the following files:
