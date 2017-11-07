@@ -1,4 +1,4 @@
-# Download and unpack Raspbian Jessie Lite
+# Download and unpack Raspbian Stretch Lite
 ```
 wget https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-09-08/2017-09-07-raspbian-stretch-lite.zip
 ```
