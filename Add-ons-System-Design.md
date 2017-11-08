@@ -35,3 +35,38 @@
 
 # Open Questions
 * Do we actually want to provide user installable add-ons and the security risks that brings, or should all add-ons have to be added at build time?
+
+# Proposed Add-on Design
+
+## Package Layout
+
+An adapter or plugin should be packaged such that it has one top-level directory, corresponding to the package ID, i.e. `org.mozilla-iot.adapters.mock`.
+
+### Manifest
+
+Inside the top-level package directory should be a manifest file, `manifest.json`. It must contain the following data:
+
+```
+{
+  "apiMin": 1,
+  "apiMin": 1,
+  "id": "org.mozilla-iot.adapters.mock",
+  "name": "Mock Adapter",
+  "version": "0.2.1",
+  "plugin": false,
+  "config": {
+  }
+}
+```
+
+The fields are explained as follows:
+
+- `apiMin` - The minimum API version supported.
+- `apiMax` - The maximum API version supported.
+- `id` - The package ID, which must match the name of the package's top-level directory.
+- `name` - A friendly name for the package, which will be shown in the UI.
+- `version` - The version of this package.
+- `plugin` - Whether or not this is a UI plugin, rather than a device adapter.
+- `config` - (Optional) Generic configuration object. When the user changes config options, they will be stored in the gateway's settings database, and will persist across package upgrades.
+
+This manifest is separate from `package.json` with the intent that adapters could be written in other languages in the near future, where `package.json` may not exist.
