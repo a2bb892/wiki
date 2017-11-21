@@ -40,11 +40,11 @@
 
 ## Package Layout
 
-An adapter or plugin should be an npm-compatible package, such that it has one top-level directory, corresponding to the package name, i.e. `moziot-adapter-mock`.
+An adapter or plugin should be an npm-compatible package, such that it has one top-level directory, named `package`.
 
 ### `package.json`
 
-Inside the top-level package directory should be a `package.json` file. It must be a valid npm package, with an additional field, `moziot`, as such:
+Inside the `package` directory should be a `package.json` file. It must be a valid npm package, with an additional field, `moziot`, as such:
 
 ```
 {
