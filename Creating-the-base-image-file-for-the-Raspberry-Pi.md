@@ -29,6 +29,8 @@ touch /media/USERNAME/boot/ssh
 cd /media/USERNAME/f2100b2f-ed84-4647-b5ae-089280112716/home/pi
 sudo wget https://raw.githubusercontent.com/mozilla-iot/gateway/master/image/prepare-base.sh
 sudo chmod +x prepare-base.sh
+sudo wget https://raw.githubusercontent.com/mozilla-iot/gateway/master/image/prepare-base-root.sh
+sudo chmod +x prepare-base-root.sh
 ```
 
 ## Enable serial console (optional)
