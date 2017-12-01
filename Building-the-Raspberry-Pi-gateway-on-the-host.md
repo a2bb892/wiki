@@ -41,4 +41,4 @@ You should be in the `docker-moziot` directory.
 ```
 rpxc bash -c ./gateway/image/build-gateway.sh
 ```
-This will create `openzwave.tar.gz` and `node_modules.tar.gz`
+This will create `openzwave.tar.gz` and `gateway.tar.gz`
