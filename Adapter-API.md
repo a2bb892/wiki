@@ -1,9 +1,3 @@
-Eventually we'd like it to be possible to write adapters (e.g. ZigBee adapter, Z-Wave adapter) in different programming languages, have them run in their own process, and talk to them via some kind of IPC mechanism.
-
-But for our initial NodeJS prototype we’ve discussed having some kind of uniform JavaScript interface for the web app to talk to adapters.
-
-Based on the [Web Thing REST API](https://moziot.github.io/wot/) which will be a layer above this JavaScript API, the currently implemented API is as follows:
-
 ### Adapter Code
 
 Currently, only Javascript adapters and plugins are supported. The package will be loaded into the gateway dynamically, provided that its API version is supported and it provides a proper manifest.
