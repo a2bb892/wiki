@@ -109,3 +109,5 @@ sudo dd status=progress bs=10M of=2017-09-07-gateway-base.img if=/dev/sdh
 zip 2017-09-07-gateway-base.img.zip 2017-09-07-gateway-base.img
 sudo rm 2017-09-07-gateway-base.img
 ```
+
+See [Uploading a base image to AWS](https://github.com/mozilla-iot/wiki/wiki/Uploading-a-base-image-to-AWS) if you'd like to upload the new base image to AWS.
