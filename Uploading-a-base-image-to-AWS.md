@@ -11,8 +11,8 @@ aws s3api put-object --profile wot --bucket mozillagatewayimages --key base/gate
 ```
 You can also use the aws cp command:
 ```
-aws s3 cp --acl public-read gateway-0.2.2.img.zip.sha256sum s3://mozillagatewayimages/base/gateway-0.2.2.img.zip.sha256sum
-aws s3 cp --acl public-read gateway-0.2.2.img.zip s3://mozillagatewayimages/base/gateway-0.2.2.img.zip
+aws s3 cp --acl public-read gateway-0.2.2.img.zip.sha256sum s3://mozillagatewayimages/base/
+aws s3 cp --acl public-read gateway-0.2.2.img.zip s3://mozillagatewayimages/base/
 ```
 
 You can see which base images exist by using a command like:
