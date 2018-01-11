@@ -141,6 +141,7 @@ Sent from the adapter to the gateway to indicate that the adapter is ready.
     pluginId: 'pluginId-string',
     adapterId: 'adapterId-string',
     name: 'name-of-the-adapter',
+    packageName: 'name-of-the-package',
   },
 }
 ```
