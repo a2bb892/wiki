@@ -279,6 +279,22 @@ Sent from a plugin to the gateway to indicate that an adapter has completed unlo
 }
 ```
 
+### debugCmd
+This is an optional message that can be used to send debug commands to an adapter. The debug_controller allows these types of commands to be sent.
+```
+{
+  messageType: 'debugCmd',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    deviceId: 'device-id-string',
+    cmd: 'device-specific command string',
+    params: 'command specific params'
+  },
+}
+```
+
+
 ## Mock messages
 
 There are some additional messages used for testing, which are only sent to the MockAdapter. See `src/adapters/mock/mock-adapter.js` for details.
