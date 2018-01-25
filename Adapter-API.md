@@ -1,6 +1,6 @@
-### Adapter Code
+# Adapter Code
 
-Currently, only Javascript adapters and plugins are supported. The package will be loaded into the gateway dynamically, provided that its API version is supported and it provides a proper manifest.
+The documentation below is focused on Node.js adapters, but other languages are supported as well. The package will be loaded into the gateway dynamically, provided that its API version is supported and it provides a proper manifest.
 
 The package should have one exported function, which will be executed on startup. It will be called as such:
 
@@ -82,7 +82,7 @@ To define new device properties, the package can optionally subclass `Property`,
 - `getValue()` - Return a `Promise` that will resolve to the property's value.
 - `setValue(value)` - Return a `Promise` that will resolve to the set value, after adjustments by `setCachedValue(value)`.
 
-#### Available Imports for Adapters
+## Available Imports for Adapters
 
 The classes named above can be imported as such:
 
