@@ -26,6 +26,11 @@ Inside the `package` directory should be a `package.json` file. It must be a val
   "bugs": {
     "url": "https://github.com/mozilla-iot/gateway/issues"
   },
+  "files": [
+    "LICENSE",
+    "SHA256SUMS",
+    "index.js"
+  ],
   "moziot": {
     "api": {
       "min": 1,
