@@ -82,7 +82,7 @@ To define new device properties, the package can optionally subclass `Property`,
 - `getValue()` - Return a `Promise` that will resolve to the property's value.
 - `setValue(value)` - Return a `Promise` that will resolve to the set value, after adjustments by `setCachedValue(value)`.
 
-## Available Imports for Adapters
+## Available Imports for Node.js Adapters
 
 The classes named above can be imported as such:
 
@@ -92,4 +92,8 @@ const Device = require('../device');
 const Property = require('../property');
 ```
 
-See issue for discussion https://github.com/moziot/gateway/issues/1
+## Python Bindings
+
+Python 2.X/3.X bindings are available as well, and provide an almost identical interface to the above. They can be imported through the `gateway_addon` package.
+
+See here: https://github.com/mozilla-iot/gateway-addon-python
