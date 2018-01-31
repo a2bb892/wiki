@@ -56,17 +56,7 @@ sudo poweroff
 
 # Remove the SDcard and make an image of it
 
-When you stick the sdcard into the host it will most likely automatically mount both partitions, so you'll need to unmount those first (don't eject using the UI, but rather umount from the command line):
+Remove the sdcard from the pi and insert it into the host. You can then run image-to-aws.sh (found in the same directory as make-prep.sh):
 ```
-umount /dev/sdh1
-umount /dev/sdh2
+image-to-aws.sh --dd /dev/mmcblk0 gateway-0.3.0.img
 ```
-
-Replace `/dev/sdh` with the appropriate device for your sdcard. Make sure you use the block device for the entire sdcard and not a block device for one of the partitions.
-```
-sudo dd status=progress bs=10M of=2017-09-07-gateway-base.img if=/dev/sdh
-zip 2017-09-07-gateway-base.img.zip 2017-09-07-gateway-base.img
-sudo rm 2017-09-07-gateway-base.img
-```
-
-See [Uploading a base image to AWS](https://github.com/mozilla-iot/wiki/wiki/Uploading-a-base-image-to-AWS) if you'd like to upload the new base image to AWS.
