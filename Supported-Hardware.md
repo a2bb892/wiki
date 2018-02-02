@@ -23,7 +23,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
-***
+## Add-on Adapters
+* TP-Link [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs), [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches), and [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
+* [Philips Hue bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon)
 
 ## Devices
 ### Zigbee
