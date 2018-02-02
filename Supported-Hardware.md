@@ -30,8 +30,12 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ## Devices
 ### Zigbee
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK)
+* [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
+* [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 ### Z-Wave
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
+* [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
+* [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
 ### WiFi
 ### GPIO
 * Raspberry Pi GPIO
