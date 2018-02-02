@@ -7,8 +7,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Raspberry Pi 3](https://www.raspberrypi.org/products/) (recommended)
 * Raspberry Pi Zero W
 
-### OpenWRT
-* (Experimental OpenWRT package)
+### OpenWrt
+* (Experimental OpenWrt package coming soon)
 
 ***
 
@@ -24,19 +24,20 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
 ## Add-on Adapters
-* TP-Link [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs), [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches), and [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
-* [Philips Hue bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon)
+* TP-Link [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs), [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches), and [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs) -- direct Wi-Fi devices
+* [Philips Hue bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
 
 ## Devices
 ### Zigbee
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK)
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
-* Centralite RZHAC - Plug-in Outlet Module
 ### Z-Wave
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
-### WiFi
+### Wi-Fi
+### Bluetooth and Bluetooth Low Energy (BLE)
+### LoRa
 ### GPIO
 * Raspberry Pi GPIO
