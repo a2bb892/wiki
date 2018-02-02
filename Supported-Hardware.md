@@ -36,6 +36,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
+* [GE ZW4103](https://products.z-wavealliance.org/products/1435)
 ### Wi-Fi
 ### Bluetooth and Bluetooth Low Energy (BLE)
 ### LoRa
