@@ -23,10 +23,6 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
-## Add-on Adapters
-* TP-Link [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs), [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches), and [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs) -- direct Wi-Fi devices
-* [Philips Hue bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
-
 ## Devices
 ### Zigbee
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK)
@@ -40,6 +36,12 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
 ### Wi-Fi
+* TP-Link
+  * [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
+  * [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches)
+  * [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
+* Philips Hue
+  * [bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
 ### Bluetooth and Bluetooth Low Energy (BLE)
 ### LoRa
 ### GPIO
