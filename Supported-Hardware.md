@@ -19,7 +19,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ### Z-Wave
 * [Sigma Designs UZB Stick](http://www.vesternet.com/z-wave-sigma-designs-usb-controller)
 * [Aeotec Z-Stick](http://aeotec.com/z-wave-usb-stick) (Gen5)
-* Any [Any OpenZWave compatible dongle](https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List) should work, but have not all been tested
+* Any [OpenZWave compatible dongle](https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List) should work, but have not all been tested
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
