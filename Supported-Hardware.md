@@ -23,6 +23,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
+***
+
 ## Devices
 ### Zigbee
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK)
