@@ -1,0 +1,1 @@
+Toggle the power to bulb six times. The bulb should flash once after being turned on the sixth time. You can then press + in the gateway and you should see the bulb show up (it may take 10-15 seconds).
