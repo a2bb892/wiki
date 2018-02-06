@@ -10,3 +10,6 @@ It looks like this: <img src="https://raw.githubusercontent.com/mozilla-iot/wiki
 1. Continue to hold both buttons on the remote until the green LED goes off completely.
 
 # Method 2 - Use the Philips Hue Hub/Bridge
+
+I tried following the steps posted here:
+https://community.smartthings.com/t/hue-bulb-factory-reset-solved-if-your-hue-bulb-is-on-a-zll-channel/84967 but the bulb would immediately repair with the hub.
