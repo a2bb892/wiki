@@ -31,12 +31,14 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
+* Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 ### Z-Wave
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
+* Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 ### Wi-Fi
 * TP-Link
   * [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
