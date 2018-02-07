@@ -31,6 +31,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
+* Cree Connected Bulbs
+* IKEA Connected Bulbs
+* Philips Hue Bulbs (requires a remote to factory reset)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 ### Z-Wave
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
