@@ -26,4 +26,25 @@ The gpio-adapter uses the node library [onoff](https://www.npmjs.com/package/ono
 
 If the pin is configured as an input, then it may have an attribute called `"edge"` which may be one of `"none"`, `"rising"`, `"falling"`, or `"both"`.
 
+Input pins may also have an attribute called "debounce" which is a number indicating the number of milliseconds that the input should be debounced for. If no debounce is provided, then a default of 10 milliseconds will be used. Setting debounce to 0 will disable the debounce logic.
+
 If the pin is configured as an output, then you can provide an initial value by using the `"value"` attribute.
+
+So for example, the following configuration would have pin 18 as an output and pin 23 as an input:
+```
+{
+  "pins": {
+    "18": {
+      "direction": "out",
+      "name": "led",
+      "value": 0
+    },
+    "23": {
+      "direction": "in",
+      "name": "button",
+      "edge": "both",
+      "debounce": 10
+    }
+  }
+}
+```
