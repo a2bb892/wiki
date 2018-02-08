@@ -21,7 +21,7 @@ flash | The act of copying data and programs onto an SD card (or other solid sta
 floorplan | a map of a building onto which icons are placed to signify the locations of devices.
 Gateway | The Mozilla software that orchestrates the interactions of users with adapters and things.
 gateway.local | a domain that tells a Web browser where to find the Mozilla Gateway on the local network
-[github][https://en.wikipedia.org/wiki/GitHub] | a place where programmers store, develop and share programs, fragments of programs, and other data
+[github](https://en.wikipedia.org/wiki/GitHub) | a place where programmers store, develop and share programs, fragments of programs, and other data
 [GPIO](https://en.wikipedia.org/wiki/General-purpose_input/output) | General Purpose Input/Output - physical electrical signal points on a circuit board that can be used to send and receive signals
 [HomeKit](https://en.wikipedia.org/wiki/Apple_HomeKit) | the Apple Corporation's implementation of Smart Home 
 [HTTP](https://en.wikipedia.org/wiki/Hypertext_Transfer_Protocol) | A data communication protocol employed by the Web 
