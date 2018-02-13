@@ -43,6 +43,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
 * [Devolo Smartmetering Plug](https://www.devolo.com/en/Products/devolo-Home-Control-Smart-Metering-Plug)
 * [Neo Coolcam smart power Plug](http://www.szneo.com/en/products/index.php?id=41)
+* [Fibaro Wall Plug 2 FGWPF-102-ZW5](https://www.fibaro.com/en/products/wall-plug/)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 ### Wi-Fi
 * TP-Link
