@@ -12,7 +12,7 @@ If you plug in an HDMI monitor into the HDMI port on the Raspberry Pi and plug i
 
 Connect a USB-to-TTL serial cable to the GPIO header pins. Adafruit sells a suitable [USB to TTL serial cable](https://www.adafruit.com/product/954) and it is connected as pictured:
 ![Serial Console Connections](https://github.com/mozilla-iot/wiki/raw/master/Photos/Serial-Console.jpg)
-The black wire is ground and connects to pin 6 (GROUND). The white wire is RX and connects to pin 8 (UART TX). The black wire is TX and connects to pin 10 (UART RX). Leave the red wire (power) unconnected. Refer to the adafruit page for links to drivers for Windows and Mac. Fire up your favorite terminal program at 115200 baud, no flow control and you should see boot messages and a login prompt.
+The black wire is ground and connects to pin 6 (GROUND). The white wire is RX and connects to pin 8 (UART TX). The green wire is TX and connects to pin 10 (UART RX). Leave the red wire (power) unconnected. Refer to the adafruit page for links to drivers for Windows and Mac. Fire up your favorite terminal program at 115200 baud, no flow control and you should see boot messages and a login prompt.
 
 The image that we distribute has the serial console enabled by default.
 
