@@ -27,7 +27,7 @@ A new adapter, called `plugin` was added. The contains the following files:
 | ipc.js | Implements IpcSocket which is used by the Adapter and gateway comms |
 | plugin-server.js | Implements the gateway side of adapter registration. |
 | plugin-client.js | Implenents the adapter side of adapter registration. |
-| adapter-proxy.js | Proxy object used on the gateway to represent and actual adapter in the adapter. |
+| adapter-proxy.js | Proxy object used on the gateway to represent an actual adapter in the adapter. |
 | device-proxy.js | Proxy object used on the gateway to represent an actual device in the adapter.|
 | property-proxy.js | Proxy object used on the gateway to represent an actual property in the adapter. |
 | adapter-manager-proxy.js | Proxy object used on the adapter to represent the adapter manager in the gateway. |
