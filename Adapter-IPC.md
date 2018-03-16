@@ -30,7 +30,7 @@ A new adapter, called `plugin` was added. The contains the following files:
 | adapter-proxy.js | Proxy object used on the gateway to represent an actual adapter in the adapter. |
 | device-proxy.js | Proxy object used on the gateway to represent an actual device in the adapter.|
 | property-proxy.js | Proxy object used on the gateway to represent an actual property in the adapter. |
-| adapter-manager-proxy.js | Proxy object used on the adapter to represent the adapter manager in the gateway. |
+| addon-manager-proxy.js | Proxy object used on the adapter to represent the adapter manager in the gateway. |
 
 And a test plugin which is a variation of the mock plugin is implemented in the test-plugin directory.
 
@@ -65,7 +65,7 @@ On the adapter size, the adapter manager proxy performs similar functionality.
       path: './adapters/example-plugin',
     },
 ```
-2. Start the test-plugin using the command `node src/adapter-loader.js example_plugin` from the top level directory in the repository (i.e. the directory containing the `src` and `config` directories).
+2. Start the test-plugin using the command `node src/addon-loader.js example_plugin` from the top level directory in the repository (i.e. the directory containing the `src` and `config` directories).
 
 # IPC Messages
 
