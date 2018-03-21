@@ -58,7 +58,7 @@ sudo poweroff
 
 Remove the sdcard from the pi and insert it into the host. You can then run image-to-aws.sh (found in the same directory as make-prep.sh):
 ```
-image-to-aws.sh --dd /dev/mmcblk0 gateway-0.3.0.img
+image-to-aws.sh --dd /dev/mmcblk0 gateway-base-0.3.0.img
 ```
 
 See [this page](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) for instructions on installing the AWS command line tool. You can test that the aws command line tool is working properly by using the command:
