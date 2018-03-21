@@ -25,3 +25,18 @@ Properly eject the sdcard and then boot up the Raspberry Pi. It will detect the 
 ssh pi@gateway.local
 ```
 and provide a password of `raspberry`.
+
+# Enabling Wifi
+
+You can create a wpa_supplicant.conf file and put it into the /boot partition (there are 2 partitions on the sdcard, the first is a FAT formatted boot partition and the second is an EXT formatted partition with the root filesystem). You wpa_supplicant.conf file should look like this:
+```
+ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=netdev
+update_config=1
+country=GB
+
+network={
+	ssid="WIRLESS_AP_SSID_HERE"
+	psk="PASSWORD_GOES_HERE"
+}
+```
+The next time you boot your Raspberry Pi using that sdcard it will copy the wpa_supplicant file into the /etc/wpa_supplicant directory (overwriting any previous file).
