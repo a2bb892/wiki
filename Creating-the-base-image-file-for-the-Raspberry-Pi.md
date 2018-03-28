@@ -63,5 +63,5 @@ image-to-aws.sh --dd /dev/mmcblk0 gateway-base-0.3.0.img
 
 See [this page](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) for instructions on installing the AWS command line tool. You can test that the aws command line tool is working properly by using the command:
 ```
-aws s3 ls s3://mozillagatewayimages/images/
+aws s3 ls s3://mozillagatewayimages/base/
 ```
