@@ -16,4 +16,4 @@ Now that you've disabled the integrity check, you can edit the source files. To 
 ```
 Setting debugFrames to true will cause a 1-line summary to be printed. Setting debugFrameDetail will cause the full frame to be printed.
 
-Now go into Settings->Addons , Disable and re-enable the zigbee adapter and you should start to see information about each frame being sent and received. On the Raspberry Pi, you can find the log files in `/home/pi/.mozilla-iot/log/run-app.log` for 0.4 and newer and in `/home/pi/mozilla-iot/gateway/run-app.log` for 0.3.1 and earlier.
+Now go into Settings->Add-ons, disable and re-enable the zigbee adapter and you should start to see information about each frame being sent and received. On the Raspberry Pi, you can find the log files in `/home/pi/.mozilla-iot/log/run-app.log` for 0.4 and newer and in `/home/pi/mozilla-iot/gateway/run-app.log` for 0.3.1 and earlier.
