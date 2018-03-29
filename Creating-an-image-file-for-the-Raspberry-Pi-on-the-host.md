@@ -2,15 +2,15 @@
 
 Follow the directions [[here|Creating-the-base-image-file-for-the-Raspberry-Pi]] to create a base image.
 
-# Build the Rapberry Pi version of the gateway
+# Build the Raspberry Pi version of the gateway
 
-Follow the directions [[here|Building-the-Raspberry-Pi-gateway-on-the-host]] to use docker to create a Raspberry Pi build of the gatewy on the host.
+Follow the directions [[here|Building-the-Raspberry-Pi-gateway-on-the-host]] to use docker to create a Raspberry Pi build of the gateway on the host.
 
 # Add the Raspberry Pi gateway to the base image
 
 ## Prerequisites
 
-The `add-gateway.sh` makes use of the kpartx and unzip tools in order to perform loop mounts of the image file. Under ubuntu you can install this by using:
+The `add-gateway.sh` makes use of the kpartx and unzip tools in order to perform loop mounts of the image file. Under Ubuntu you can install this by using:
 ```
 sudo apt install kpartx zip
 ```
