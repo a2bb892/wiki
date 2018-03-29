@@ -24,7 +24,7 @@ Properly eject the sdcard and then boot up the Raspberry Pi. It will detect the 
 ```
 ssh pi@gateway.local
 ```
-and provide a password of `raspberry`.
+and provide a password of `raspberry`. Note that using ssh requires a network connection, either wired or wireless. If you want wireless, then you may need to enable wireless as below.
 
 # Enabling Wifi
 
@@ -39,4 +39,4 @@ network={
 	psk="PASSWORD_GOES_HERE"
 }
 ```
-The next time you boot your Raspberry Pi using that sdcard it will copy the wpa_supplicant file into the /etc/wpa_supplicant directory (overwriting any previous file).
+The next time you boot your Raspberry Pi using that sdcard it will copy the wpa_supplicant.conf file into the /etc/wpa_supplicant directory (overwriting any previous file).
