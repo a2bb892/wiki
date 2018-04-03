@@ -53,7 +53,17 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
 * Philips Hue
   * [bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
-### Bluetooth and Bluetooth Low Energy (BLE)
-### LoRa
+### HomeKit
+**Note**: Devices typically need to be unpaired from Android/iOS before using them with the gateway.
+
+* Smart plugs (represented as `onOffSwitch`)
+  * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
+  * [Koogeek P1](https://www.koogeek.com/p-p1.html)
+  * All other WiFi-based HomeKit smart plugs should also work
+* Bridges
+  * [Homebridge](https://github.com/nfarina/homebridge)
+  * [Philips Hue Bridge v2](https://www2.meethue.com/en-us/p/hue-bridge/046677458478)
+  * Other HomeKit bridges should also work## 
+
 ### GPIO
 * Raspberry Pi GPIO
