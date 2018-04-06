@@ -7,9 +7,9 @@ const express = require('express');
 const http = require('http');
 const simpleOAuth2 = require('simple-oauth2');
 
-const CLIENT_ID = 'hello';
+const CLIENT_ID = 'test'; // 'hello' on 0.3
 const CLIENT_SECRET = 'super secret';
-const REQUEST_SCOPE = 'readwrite';
+const REQUEST_SCOPE = '/things:readwrite'; // 'readwrite' on 0.3
 const REQUEST_STATE = 'somethingrandom';
 
 const config = {
