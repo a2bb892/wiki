@@ -4,9 +4,9 @@
 
 To make sure you have the latest version of OpenZWave we recommend you download and build the source yourself.
 
-### Note about -D_GLIBCXX_USE_CXX11_ABI
+### Note about `-D_GLIBCXX_USE_CXX11_ABI`
 
-Starting in g++ 5.1, there has been a change with how some of the linkage symbols work. If you're using a newer compiler, you can use -D_GLIBCXX_USE_CXX11_ABI=0 to get the old behaviour.  The addon-builder runs on Travis and uses version 4.8 of g++, so it builds libraries with the old symbols. In order to be compatible, you should build your copy of openzwave using this define as well. The instructions below show how to build with _GLIBCXX_USE_CXX11_ABI=0
+Starting in g++ 5.1, there has been a change with how some of the linkage symbols work. If you're using a newer compiler, you can use `-D_GLIBCXX_USE_CXX11_ABI=0` to get the old behaviour. The addon-builder runs on Travis and uses version 4.8 of g++, so it builds libraries with the old symbols. In order to be compatible, you should build your copy of openzwave using this define as well. The instructions below show how to build with `_GLIBCXX_USE_CXX11_ABI=0`.
 
 ### Linux
 
