@@ -8,8 +8,11 @@ The system has 2 main parts, the backend server side, and the front end client s
 
 Architecture Diagram 1:
 
+![Mozilla WoT Gateway Architecture](https://github.com/nherriot/gateway/blob/master/doc/wot_gw.png)
 
 ### Server Side Components
+
+***
 
 #### Section 1
 
@@ -39,6 +42,8 @@ Once this file is served to the client - it is the client which controls most co
 e.g. The settings menu is controlled by the /src/controllers/settings_controller.js and a routes are defined here. However hyper links calling those function are not contained within rendered pages. This is explained later in client side.
 
 ### Client Side
+
+***
 
 #### Section 3
 
