@@ -20,9 +20,9 @@ to be:
 ```
   "linux": '/dev/ttyACM0',
 ```
-since my ZWave dongle (AEOTEC ZStick Gen5) shows up as /dev/ttyACM0.
+since my Z-Wave dongle (AEOTEC ZStick Gen5) shows up as /dev/ttyACM0.
 
-If your dongle already has a network setup (the dongle persists information about the ZWave network) you may want to do a factory reset of the dongle and/or devices to get everything back into a clean state.
+If your dongle already has a network setup (the dongle persists information about the Z-Wave network) you may want to do a factory reset of the dongle and/or devices to get everything back into a clean state.
 
 From the node-openzwave-shared directory you can now run:
 ```
@@ -146,7 +146,7 @@ The variable `nodes` contains all of the nodes reported by the controller.
        '134': [Object] },
     ready: true } ]
 ```
-In the above example, the node was added as node4 so there are some empty entries in the array. If your ZWave dongle was factory reset, then the first entry will most likely be node2.
+In the above example, the node was added as node4 so there are some empty entries in the array. If your Z-Wave dongle was factory reset, then the first entry will most likely be node2.
 
 You can turn the appliance module on or off using a command like:
 ```
