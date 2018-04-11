@@ -14,21 +14,21 @@ Alternatively nvm allows you to easily install different versions of node. To in
 Close and reopen your terminal window. Use nvm to install node and set the default version.
 
 ```
-$ nvm install v7.7.2
-$ nvm use v7.7.2
-$ nvm alias default v7.7.2
+$ nvm install --lts
+$ nvm use --lts
+$ nvm alias default --lts
 ```
 
 Verify that node and npm have been installed:
 ```
 $ npm --version
-4.1.2
+5.6.0
 $ node --version
-v7.7.2
+v8.11.1
 ```
 
 ## HomeBrew
-On Mac OS you can install NodeJS using [HomeBrew](https://brew.sh/)
+On Mac OS X you can install NodeJS using [HomeBrew](https://brew.sh/)
 
 ```
 $ brew install node
