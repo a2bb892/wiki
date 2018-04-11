@@ -1,4 +1,4 @@
-These are the ZigBee clusters and attributes reported from some of the devices I've been using.
+These are the Zigbee clusters and attributes reported from some of the devices I've been using.
 
 ## GE Dimmer Lamp Module ZB3101
 ### Input Clusters for endpoint 1 (ProfileID 0104, DeviceId 0101)
