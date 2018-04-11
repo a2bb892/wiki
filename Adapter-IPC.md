@@ -256,6 +256,68 @@ Sent from a plugin to the gateway to indicate that an adapter has completed unlo
 }
 ```
 
+## requestAction
+Sent from the gateway to a plugin to request an action be taken on a device.
+```
+{
+  messageType: 'requestAction',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    deviceId: 'device-id',
+    actionName: 'action-name',
+    actionId: 'action-id',
+    input: actionInput,
+  },
+}
+```
+`actionInput` is an object containing any required inputs to the action.
+
+## removeAction
+Sent from the gateway to a plugin to request an existing action be cancelled and removed.
+```
+{
+  messageType: 'removeAction',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    deviceId: 'device-id',
+    actionName: 'action-name',
+    actionId: 'action-id',
+  },
+}
+```
+
+## actionStatus
+Sent from a plugin to the gateway to indicate that an action's status has changed.
+```
+{
+  messageType: 'actionStatus',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    deviceId: 'device-id',
+    action: actionData,
+  },
+}
+```
+`actionData` is obtained by calling `asDict()` on the `Action` object.
+
+## event
+Send from a plugin to the gateway to indicated that an event occurred.
+```
+{
+  messageType: 'event',
+  data: {
+    pluginId: 'pluginId-string',
+    adapterId: 'adapterId-string',
+    deviceId: 'device-id',
+    event: eventData,
+  },
+}
+```
+`eventData` is obtained by calling `asDict()` on the `Event` object.
+
 ### debugCmd
 This is an optional message that can be used to send debug commands to an adapter. The `debug_controller` allows these types of commands to be sent.
 ```
