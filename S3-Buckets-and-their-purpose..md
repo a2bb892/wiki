@@ -1,4 +1,4 @@
-If you do not already have access to the AWS console ask on #iot.
+If you do not already have access to the AWS console ask on Slack in #iot-internal.
 
 For general use on how to use S3 look here: https://aws.amazon.com/documentation/s3/
 
