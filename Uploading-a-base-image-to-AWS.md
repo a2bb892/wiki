@@ -1,4 +1,4 @@
-The steps on this page can now be accomplished by using the image/image-to-aws.sh script found in the gateway repository.
+The steps on this page can now be accomplished by using the `image/image-to-aws.sh` script found in the gateway repository.
 
 The automated build uses AWS to grab the base image zipfile. Construct the base image by following this [page](https://github.com/mozilla-iot/wiki/wiki/Creating-the-base-image-file-for-the-Raspberry-Pi).
 
