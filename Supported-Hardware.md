@@ -2,10 +2,10 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 ## Gateway
 ### Raspbian
-* Raspberry Pi
-* Raspberry Pi 2
-* [Raspberry Pi 3B](https://www.raspberrypi.org/products/) (recommended)
-* Raspberry Pi 3B+
+* Raspberry Pi 1 Model B+
+* Raspberry Pi 2 Model B
+* [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/) (recommended)
+* Raspberry Pi 3 Model B+
 * Raspberry Pi Zero W
 
 ### OpenWrt
