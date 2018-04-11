@@ -64,5 +64,5 @@ Web Thing | A device that is connected to the internet and can communicate via H
 [WiFi](https://en.wikipedia.org/wiki/Wi-Fi) | wireless internet that is usually provided by a router
 [Windows IoT](https://en.wikipedia.org/wiki/Windows_IoT) | Microsoft's operating system for building IoT devices
 ZB mesh | the manner in which ZigBee devices communicate in a web rather than in a sequential line
-[ZigBee](https://en.wikipedia.org/wiki/Zigbee) | an open specification for a wireless communications protocol that allows compliant smart home devices to communicate with each other
+[Zigbee](https://en.wikipedia.org/wiki/Zigbee) | an open specification for a wireless communications protocol that allows compliant smart home devices to communicate with each other
 [Z-Wave](https://en.wikipedia.org/wiki/Z-Wave) | a proprietary wireless communications protocol that allows compliant smart home devices to communicate
