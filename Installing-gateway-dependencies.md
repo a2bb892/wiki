@@ -4,9 +4,9 @@
 
 # Install openzwave
 
-[This page](https://github.com/moziot/wiki/wiki/Installing-openzwave) covers installing open-zwave for OSX and Linux.
+[This page](https://github.com/moziot/wiki/wiki/Installing-openzwave) covers installing openzwave for OSX and Linux.
 
-# Recommended - Insall nvm
+# Recommended - Install nvm
 
 nvm allows you to easily switch between different versions of node quite easily.
 ```
