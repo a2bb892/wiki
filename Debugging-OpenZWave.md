@@ -1,6 +1,6 @@
 # Enable OpenZWave Logging
 
-The default configuration of the OpenZWave library will have logging enabled and the contents will go into a file called OZW_Log.txt in the directory where app.js was run.
+The default configuration of the OpenZWave library will have logging enabled and the contents will go into a file called `OZW_Log.txt` in the directory where `app.js` was run.
 
 You can also cause the debug output to be directed to stdout. One way to do this is to edit the file [adapters/zwave/zwave-adapter.js](https://github.com/moziot/gateway/blob/2580d6fd45c4d3bfdeb70bbd6e8fe79cb78f197b/adapters/zwave/zwave-adapter.js#L32) file, find the ConsoleOutput option and set it to true.
 
