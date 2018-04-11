@@ -23,41 +23,26 @@ In the gateway, a plugin interface exists in `src/plugin/`. It contains the foll
 
 | Filename | Purpose |
 | -------- | ------- |
-| ipc.js | Implements IpcSocket which is used by the Adapter and gateway comms |
+| ipc.js | Implements IpcSocket which is used by the Adapter and gateway comms. |
 | plugin-server.js | Implements the gateway side of adapter registration. |
-| plugin-client.js | Implenents the adapter side of adapter registration. |
+| plugin-client.js | Implements the adapter side of adapter registration. |
 | plugin.js | Wrapper around a plugin process. Instantiated by `plugin-server.js`. |
-| adapter-proxy.js | Proxy object used on the gateway to represent an actual adapter in the adapter. |
-| device-proxy.js | Proxy object used on the gateway to represent an actual device in the adapter.|
-| property-proxy.js | Proxy object used on the gateway to represent an actual property in the adapter. |
-| addon-manager-proxy.js | Proxy object used on the adapter to represent the adapter manager in the gateway. |
+| adapter-proxy.js | Proxy object used by the gateway to represent an actual adapter in the adapter. |
+| device-proxy.js | Proxy object used by the gateway to represent an actual device in the adapter.|
+| property-proxy.js | Proxy object used by the gateway to represent an actual property in the adapter. |
+| addon-manager-proxy.js | Proxy object used by the adapter to represent the add-on manager in the gateway. |
 
 # Overview
 
-The plugin server implements a listener using a [request-reply nanomsg protocol](http://nanomsg.org/v1.0.0/nn_reqrep.7.html). There is a single request 'registerAdapter' which is used to register a new adapter plugin. The gateway will the allocate some per-adapter resources using a [pair nanomsg protocol](http://nanomsg.org/v1.0.0/nn_pair.7.html). All further communications between the adapter and the gateway will occur on the this paired channel.
+The plugin server implements a listener using a [request-reply nanomsg protocol](http://nanomsg.org/v1.0.0/nn_reqrep.7.html). There is a single request 'registerAdapter' which is used to register a new adapter plugin. The gateway will then allocate some per-adapter resources using a [pair nanomsg protocol](http://nanomsg.org/v1.0.0/nn_pair.7.html). All further communications between the adapter and the gateway will occur on this paired channel.
 
 On the gateway side, the adapter/device/protocol proxies will translate API calls into IPC calls, and convert IPC replies/notifications appropriately.
 
-On the adapter size, the adapter manager proxy performs similar functionality.
+On the adapter side, the add-on manager proxy performs similar functionality.
 
-# ToDo
+# TODO
 
-* a mechanism to detect that the gateway side has crashed or otherwise "gone away" and reappeared needs to be implemented so that the adapter can re-register. I think that the gateway side can detect the named-pipe files to detect which adapters may have been previously started. Alternately, it may be able to use the repreq channel, or may need to implement one of the broadcast mechanisms that nanomsg provides (or perhaps change the reqrep to be a bus).
-* a mechanism to start a plugin
-* a mechanism to restart a plugin when it crashes or otherwise "goes away".
 * add timeouts to message send-get-reply so that it can gracefully recover.
-
-# How to run the test-plugin
-
-1. Start the gateway with the example plugin enabled (i.e. the config file should have an entry like this:
-```
-    example_plugin: {
-      enabled: true,
-      plugin: true,
-      path: './adapters/example-plugin',
-    },
-```
-2. Start the test-plugin using the command `node src/addon-loader.js example_plugin` from the top level directory in the repository (i.e. the directory containing the `src` and `config` directories).
 
 # IPC Messages
 
