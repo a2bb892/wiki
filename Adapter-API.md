@@ -4,7 +4,7 @@ The documentation below is focused on Node.js adapters, but other languages are 
 
 The package should have one exported function, which will be executed on startup. It will be called as such:
 
-```
+```javascript
 loadMyAdapter(addonManagerInstance, manifestObject, errorCallback);
 ```
 
