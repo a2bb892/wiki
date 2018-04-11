@@ -34,7 +34,7 @@ In the gateway, a plugin interface exists in `src/plugin/`. It contains the foll
 
 # Overview
 
-The plugin server implements a listener using a [request-reply nanomsg protocol](http://nanomsg.org/v1.0.0/nn_reqrep.7.html). There is a single request 'registerAdapter' which is used to register a new adapter plugin. The gateway will then allocate some per-adapter resources using a [pair nanomsg protocol](http://nanomsg.org/v1.0.0/nn_pair.7.html). All further communications between the adapter and the gateway will occur on this paired channel.
+The plugin server implements a listener using a [request-reply nanomsg protocol](http://nanomsg.org/v1.0.0/nn_reqrep.7.html). There is a single request, `registerAdapter`, which is used to register a new adapter plugin. The gateway will then allocate some per-adapter resources using a [pair nanomsg protocol](http://nanomsg.org/v1.0.0/nn_pair.7.html). All further communications between the adapter and the gateway will occur on this paired channel.
 
 On the gateway side, the adapter/device/protocol proxies will translate API calls into IPC calls, and convert IPC replies/notifications appropriately.
 
@@ -48,7 +48,7 @@ On the adapter side, the add-on manager proxy performs similar functionality.
 
 ## Plugin Registration
 
-The following message and reply are used when an adapter registers itself with the gateway. The gateway opens a `rep` channel using `ipc:///tmp/gateway.adapterManager`, and the adapter should use a `req` channel.
+The following message and reply are used when an adapter registers itself with the gateway. The gateway opens a `rep` channel using `ipc:///tmp/gateway.addonManager`, and the adapter should use a `req` channel.
 
 ### registerPlugin
 
@@ -61,7 +61,7 @@ Sent from the plugin to the gateway to register the plugin with the gateway.
   },
 }
 ```
-The `pluginId` will be unique to the plugin, and should match the key used in the config for `adapters`. (i.e. 'zwave').
+The `pluginId` will be unique to the plugin, and should match the key used in the config for adapters. (i.e. 'zwave-adapter').
 
 ### registerPluginReply
 Reply sent from the gateway back to the plugin.
@@ -124,7 +124,7 @@ Sent from the adapter to the gateway to indicate that the adapter is ready.
 ```
 
 ### handleDeviceAdded
-Sent from the adapter to the gateway to indicate that a new device has been added. Note that these may be sent before the addAdapter message is sent.
+Sent from the adapter to the gateway to indicate that a new device has been added. Note that these may be sent before the `addAdapter` message is sent.
 ```
 {
   messageType: 'handleDeviceAdded',
@@ -135,7 +135,7 @@ Sent from the adapter to the gateway to indicate that a new device has been adde
   },
 }
 ```
-The device.asDict() will return a dictionary representation of the device. See the asDict() method in the Device class for details. The deviceId will be called simply `id`.
+The `device.asDict()` will return a dictionary representation of the device. See the `asDict()` method in the `Device` class for details. The `deviceId` will be called simply `id`.
 
 ### handleDeviceRemoved
 Sent from the adapter to the gateway to indicate that a previously added device has been removed.
@@ -149,7 +149,7 @@ Sent from the adapter to the gateway to indicate that a previously added device 
   },
 }
 ```
-The deviceId should match the id field sent in the handleDeviceAdded notification.
+The `deviceId` should match the `id` field sent in the `handleDeviceAdded` notification.
 
 ### setProperty
 Sent from the gateway to the adapter to set the value of a property contained on the indicated device.
@@ -167,7 +167,7 @@ Sent from the gateway to the adapter to set the value of a property contained on
 ```
 
 ### propertyChanged
-Sent from the adapter to the gateway anytime a change in property value is detected. A propertyChanged notification will always be sent in response to a setProperty, regardless of whether the value actually changes or not.
+Sent from the adapter to the gateway anytime a change in property value is detected. A `propertyChanged` notification will always be sent in response to a `setProperty`, regardless of whether the value actually changes or not.
 ```
 {
   messageType: 'propertyChanged',
@@ -257,7 +257,7 @@ Sent from a plugin to the gateway to indicate that an adapter has completed unlo
 ```
 
 ### debugCmd
-This is an optional message that can be used to send debug commands to an adapter. The debug_controller allows these types of commands to be sent.
+This is an optional message that can be used to send debug commands to an adapter. The `debug_controller` allows these types of commands to be sent.
 ```
 {
   messageType: 'debugCmd',
