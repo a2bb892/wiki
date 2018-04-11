@@ -19,26 +19,18 @@ Here's a list of things which also made nanomsg favorable (in my mind).
 
 # Files
 
-A new adapter, called `plugin` was added. The contains the following files:
+In the gateway, a plugin interface exists in `src/plugin/`. It contains the following files:
 
 | Filename | Purpose |
 | -------- | ------- |
-| index.js | Loads plugin-server |
 | ipc.js | Implements IpcSocket which is used by the Adapter and gateway comms |
 | plugin-server.js | Implements the gateway side of adapter registration. |
 | plugin-client.js | Implenents the adapter side of adapter registration. |
+| plugin.js | Wrapper around a plugin process. Instantiated by `plugin-server.js`. |
 | adapter-proxy.js | Proxy object used on the gateway to represent an actual adapter in the adapter. |
 | device-proxy.js | Proxy object used on the gateway to represent an actual device in the adapter.|
 | property-proxy.js | Proxy object used on the gateway to represent an actual property in the adapter. |
 | addon-manager-proxy.js | Proxy object used on the adapter to represent the adapter manager in the gateway. |
-
-And a test plugin which is a variation of the mock plugin is implemented in the test-plugin directory.
-
-| Filename | Purpose |
-| -------- | ------- |
-| index.js | Part of an example adapter. |
-| test-plugin.js | An example adapter. |
-| load.js | App which instantiates a PluginClient and then loads the adapter. No changes to the actual adapter should be required. |
 
 # Overview
 
