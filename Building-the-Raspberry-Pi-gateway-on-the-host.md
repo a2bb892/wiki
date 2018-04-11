@@ -1,4 +1,4 @@
-This documents how to build the raspberry pi gateway on the host.
+This documents how to build the Raspberry Pi gateway on the host.
 
 # Create a docker image
 
