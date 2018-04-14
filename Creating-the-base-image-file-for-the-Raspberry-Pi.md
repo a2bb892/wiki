@@ -34,6 +34,8 @@ Make sure that you do a proper eject of the sdcard and wait for unwritten data t
 
 **IMPORTANT** If you want the final image to be used on Raspberry Pi earlier than a an RPi 3 then the base image will need to be built/booted on an earlier model of Raspberry Pi.
 
+**IMPORTANT** If you want the final image to include wireless support, then your Raspberry Pi that you build the base image on should have a wifi dongle that is supported by the default raspbian image.
+
 Once it's booted, you should be able to login through the serial console or via ssh (if you enabled ssh):
 ```
 ssh pi@gateway.local
