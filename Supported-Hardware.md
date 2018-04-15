@@ -39,6 +39,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ### Z-Wave
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
+* [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
