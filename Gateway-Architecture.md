@@ -1,6 +1,6 @@
 Before we jump into the Mozilla Web of Things Gateway (GW), let’s get a clear overview of the architecture. This way, we can show how the different parts of GW fit into the big picture.
 
-This section is a work in progress so may change often. You can also get involved and learn more on the [Mozilla Disclose portal](https://discourse.mozilla.org/c/iot).
+This section is a work in progress so may change often. You can also get involved and learn more on the [Mozilla Discourse portal](https://discourse.mozilla.org/c/iot).
 
 The system has 2 main parts, the backend server side, and the front end client side.
 * Backend server based on NodeJS and using express framework for routing.
@@ -21,9 +21,9 @@ Please note starting the server is not done with the usual:
 
 	/> nodejs app.js
 	
-The app.js is started by the /build/gateway.js file. The server can be started with:
+WebPack compiles the app.js file into the /build/gateway.js file. In shell terms, this looks like `webpack && node build/gateway.js`. We bundle this process into the start script, meaning that the server can be started with only:
 
-	/> nodejs build/gateway.js
+	/> npm start
 
 The app.js is responsible for starting the server and binding the express middleware framework to the server. 
 This start point controls how tunnels are created and closed in the application.
