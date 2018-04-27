@@ -1,0 +1,20 @@
+(WIP)
+- Configure an add-on
+- View Rules List
+- Create Rule
+- Edit Rule
+- Add and view dimmableColorLight
+- Add virtual-things-adapter
+- Add and view unknown thing
+- Create User
+- Logout and login
+- Use Local Token Service
+- Use Floorplan
+- Create and edit bonus users
+- Add and view color temperature light
+- Add binary sensor
+- Add multi-level sensor
+- Add multi-level switch
+- Add a web thing
+- Add smart plug
+- Setup subdomain
