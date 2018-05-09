@@ -12,3 +12,5 @@
 # External Links and Resources
 * [How to Set Up the Gateway on a Raspberry Pi](https://hacks.mozilla.org/2018/02/how-to-build-your-own-private-smart-home-with-a-raspberry-pi-and-mozillas-things-gateway/) - plus more Hacks blogs on Mozilla Project Things
 * [Informative Blogs](http://www.twobraids.com/2018/02/lars-and-real-internet-of-things-part-1.html) - part one of several
+# Environment Setup
+* [Setup of Eslint in Pycharm](./Pycharm-Setup) - Get Pycharm to use the proper linting tool for the Mozilla IoT Gateway
