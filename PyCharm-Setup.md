@@ -27,3 +27,5 @@ From the settings dialog, select: _Languages & Frameworks -> JavaScript -> Code 
 * Enabled is checked
 * ESLint package is set as: `<workspace>/gateway/node_modules/eslint`
 * Select OK.
+
+![Pycharm settings](https://github.com/mozilla-iot/wiki/blob/master/Photos/pycharm-screen.png)
