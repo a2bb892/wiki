@@ -62,13 +62,28 @@ When you request an action in the UI, it is requested with an HTTP POST request.
 
 When viewing a thing's detail, a WebSocket is opened on the thing to listen for messages over the [Web Thing WebSocket API](https://iot.mozilla.org/wot/#web-thing-websocket-api) (e.g. property status updates, action status updates and events).
 
-
 ![Open WebSocket](https://raw.githubusercontent.com/mozilla-iot/wiki/master/images/open-websocket.png)
 
+## Creating your own API Requests
 
+First you need to get a valid JWT (JSON Web Token) to authorise your requests. An easy way to find this is to inspect any Web Thing API request in developer tools and look for the "Authorization" request header.
 
+![JWT](https://raw.githubusercontent.com/mozilla-iot/wiki/master/images/jwt.png)
 
+It contains a string starting with the word "Bearer". You can copy this _whole_ string to use as your token. (Note that the gateway also supports OAuth so that third party applications can request a token, authorised by the user).
 
+You can now create your own HTTP requests using a tool like curl or Postman. For example, to set a property you can create a request with:
+* The URL of the property (e.g. https://w3c-interop.mozilla-iot.org/things/virtual-things-2/properties/on)
+* An `Authorization` header set to your JWT (e.g. `Bearer eyJhbGciOiJFUzI1NiIsInR5cCI6IkpXVCIsImtpZCI6IjZ...`)
+* `Content-Type` header set to `application/json`
+* `Accept header` set to `application/json`
+* Body containing the key-value pair you want to set, e.g.
+```
+{
+  "on": true
+}
+```
 
+![Postman](https://raw.githubusercontent.com/mozilla-iot/wiki/master/images/postman.png)
 
-
+If your PUT request is successful, it should echo back the key-value pair which has been set.
