@@ -9,6 +9,7 @@ Inside the `package` directory should be a `package.json` file. It must be a val
 ```
 {
   "name": "gpio-adapter",
+  "display_name": "GPIO",
   "version": "0.3.3",
   "description": "GPIO adapter plugin for Mozilla IoT Gateway",
   "author": "Mozilla IoT",
