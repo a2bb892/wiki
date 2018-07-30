@@ -1,7 +1,9 @@
 With Project Things, Mozilla aims to create interoperability and user choice on the Internet of Things. Mozilla does not endorse any particular smart home product or brand, but here are the devices and protocols which have been tested  so far with the [Things Gateway](https://iot.mozilla.org/gateway).
 
 ## Gateway
+
 ### Raspbian
+
 * Raspberry Pi 1 Model B+
 * Raspberry Pi 2 Model B
 * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/) (recommended)
@@ -9,15 +11,19 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Raspberry Pi Zero W
 
 ### OpenWrt
+
 * (Experimental OpenWrt package coming soon)
 
 ***
 
 ## Adapters
+
 ### Zigbee
+
 * [Digi XStick](https://www.digi.com/products/xbee-rf-solutions/boxed-rf-modems-adapters/xstick) (ZB mesh version)
 
 ### Z-Wave
+
 * [Sigma Designs UZB Stick](http://www.vesternet.com/z-wave-sigma-designs-usb-controller)
 * [Aeotec Z-Stick](http://aeotec.com/z-wave-usb-stick) (Gen5)
 * Any [OpenZWave compatible dongle](https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List) should work, but have not all been tested
@@ -27,7 +33,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ***
 
 ## Devices
+
 ### Zigbee
+
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
@@ -36,7 +44,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * IKEA Connected Bulbs
 * Philips Hue Bulbs (requires a remote to factory reset)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
+
 ### Z-Wave
+
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
 * [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
@@ -48,24 +58,41 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Neo Coolcam smart power Plug](http://www.szneo.com/en/products/index.php?id=41)
 * [Fibaro Wall Plug 2 FGWPF-102-ZW5](https://www.fibaro.com/en/products/wall-plug/)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
+
 ### Wi-Fi
+
+* Eufy
+  * [switches &amp; plugs](https://www.eufylife.com/collections/smart)
+  * [bulbs](https://www.eufylife.com/collections/led)
+* LIFX
+  * [bulbs](https://www.lifx.com/collections/featured-products#lights)
+* Philips Hue
+  * [bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
 * TP-Link
   * [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
   * [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches)
   * [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
-* Philips Hue
-  * [bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
+* Wemo
+  * [switches &amp; plugs](http://www.wemo.com/products/)
+* Yeelight
+  * [bulbs](https://www.yeelight.com/)
+
 ### HomeKit
+
 **Note**: Devices typically need to be unpaired from Android/iOS before using them with the gateway.
 
-* Smart plugs (represented as `onOffSwitch`)
+* Smart plugs
   * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
   * [Koogeek P1](https://www.koogeek.com/p-p1.html)
   * All other WiFi-based HomeKit smart plugs should also work
+* Bulbs
+  * [LIFX](https://www.lifx.com/collections/featured-products#lights)
+  * All other WiFi-based HomeKit bulbs should also work
 * Bridges
   * [Homebridge](https://github.com/nfarina/homebridge)
   * [Philips Hue Bridge v2](https://www2.meethue.com/en-us/p/hue-bridge/046677458478)
-  * Other HomeKit bridges should also work## 
+  * Other HomeKit bridges should also work
 
 ### GPIO
+
 * Raspberry Pi GPIO
