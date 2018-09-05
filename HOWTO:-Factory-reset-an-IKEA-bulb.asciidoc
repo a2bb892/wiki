@@ -1,3 +1,8 @@
 Toggle the power to bulb six times. The bulb should flash once after being turned on the sixth time. You can then press + in the gateway and you should see the bulb show up (it may take 10-15 seconds).
 
+*Notes:*
+
+* If you have problems resetting the plain white (non-colour) IKEA bulb, try making the "ons" very brief (less than a second) and the "offs" longer
+* You may need to hold the bulb extremely close to the gateway (less than 20cm) in order to get it to pair
+
 Alternatively the method as described for the Philips Hue Bulbs, using the Philips Hue Dimmer Switch is confirmed to work for IKEA bulbs, too.
