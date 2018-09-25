@@ -62,38 +62,57 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 ### Wi-Fi
 
+* Broadlink
+  * [IR devices](http://www.ibroadlink.com/)
+* Chromecast
 * Eufy
-  * [switches &amp; plugs](https://www.eufylife.com/collections/smart)
-  * [bulbs](https://www.eufylife.com/collections/led)
+  * [Switches &amp; Plugs](https://www.eufylife.com/collections/smart)
+  * [Bulbs](https://www.eufylife.com/collections/led)
 * LIFX
-  * [bulbs](https://www.lifx.com/collections/featured-products#lights)
+  * [Bulbs](https://www.lifx.com/collections/featured-products#lights)
+* Logitech
+  * [Harmony Hub](https://www.logitech.com/en-us/product/harmony-hub)
+* Netatmo
+  * [Weather Station](https://www.netatmo.com/en-US/product/weather/)
 * Philips Hue
-  * [bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
+  * [Bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
+* Sonos
+  * [Speakers](https://www.sonos.com/en-us/shop)
 * TP-Link
-  * [bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
-  * [switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches)
-  * [plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
+  * [Bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
+  * [Switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches)
+  * [Plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
 * Wemo
-  * [switches &amp; plugs](http://www.wemo.com/products/)
+  * [Switches &amp; Plugs](http://www.wemo.com/products/)
 * Yeelight
-  * [bulbs](https://www.yeelight.com/)
+  * [Bulbs](https://www.yeelight.com/)
 
 ### HomeKit
 
-**Note**: Devices typically need to be unpaired from Android/iOS before using them with the gateway.
+Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
+
+**Note**: Devices typically need to be unpaired from iOS (or their Android app) before using them with the gateway.
 
 * Smart plugs
   * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
   * [Koogeek P1](https://www.koogeek.com/p-p1.html)
-  * All other WiFi-based HomeKit smart plugs should also work
-* Bulbs
-  * [LIFX](https://www.lifx.com/collections/featured-products#lights)
-  * All other WiFi-based HomeKit bulbs should also work
+  * [Eve Energy](https://www.evehome.com/en/eve-energy)
 * Bridges
   * [Homebridge](https://github.com/nfarina/homebridge)
   * [Philips Hue Bridge v2](https://www2.meethue.com/en-us/p/hue-bridge/046677458478)
-  * Other HomeKit bridges should also work
+* Light bulbs
+  * [LIFX A19](https://www.lifx.com/products/lifx)
+* Sensors
+  * [Eve Door &amp; Window](https://www.evehome.com/en/eve-door-window)
+  * [Eve Motion](https://www.evehome.com/en/eve-motion)
 
-### GPIO
+### Other
 
 * Raspberry Pi GPIO
+* Raspberry Pi I<sup>2</sup>C
+* [MKR1000](https://github.com/mozilla-iot/http-on-off-wifi101)
+* [Arduino](https://github.com/mozilla-iot/webthing-arduino)
+* [Microblocks](http://microblocks.fun/)
+* [Serial devices](https://github.com/mozilla-iot/serial-adapter)
+* [Pimoroni Blinkt!](https://shop.pimoroni.com/products/blinkt)
+* [X10](https://www.x10.com/)
