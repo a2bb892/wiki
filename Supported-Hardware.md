@@ -64,10 +64,11 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 * Broadlink
   * [IR devices](http://www.ibroadlink.com/)
-* [Chromecast](https://store.google.com/category/home_entertainment)
 * Eufy
   * [Switches &amp; Plugs](https://www.eufylife.com/collections/smart)
   * [Bulbs](https://www.eufylife.com/collections/led)
+* Google
+  * [Chromecast](https://store.google.com/category/home_entertainment)
 * LIFX
   * [Bulbs](https://www.lifx.com/collections/featured-products#lights)
 * Logitech
