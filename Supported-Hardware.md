@@ -74,7 +74,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Logitech
   * [Harmony Hub](https://www.logitech.com/en-us/product/harmony-hub)
 * Netatmo
-  * [Weather Station](https://www.netatmo.com/en-US/product/weather/)
+  * [Weather Station &amp; Modules](https://www.netatmo.com/en-US/product/weather/)
+  * [Healthy Home Coach](https://www.netatmo.com/en-US/product/aircare/homecoach)
 * Philips Hue
   * [Bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU%2CCONTROLS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
 * Sonos
