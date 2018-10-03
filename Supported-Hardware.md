@@ -37,13 +37,17 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ### Zigbee
 
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
+* [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
+* [SmartThings Motion Sensor](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
-* Cree Connected Bulbs
-* IKEA Connected Bulbs
-* Philips Hue Bulbs (requires a remote to factory reset)
+* [Cree Bulbs](https://creebulb.com/)
+* [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
+* [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
+* [Develco Motion Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/motion-sensor/)
+* [Develco Window Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/window-sensor/)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
