@@ -45,6 +45,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
+* [Sylvania SMART+ ZigBee 2 Button Dimming Switch](https://consumer.sylvania.com/our-products/smart/product-info/zigbee/sylvania-smart-zigbee-2-button-dimming-switch/index.jsp)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
 * [Cree Bulbs](https://creebulb.com/)
 * [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
