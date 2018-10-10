@@ -38,7 +38,10 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
 * [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
-* [SmartThings Motion Sensor](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
+* [SmartThings Multipurpose Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
+* [SmartThings Motion Sensor](https://www.smartthings.com/gb/products/smartthings-motion-sensor)
+* [SmartThings Motion Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
+* [SmartThings Water Leak Sensor](https://www.smartthings.com/gb/products/smartthings-water-leak-sensor)
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
