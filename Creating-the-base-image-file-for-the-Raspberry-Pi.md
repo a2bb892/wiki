@@ -60,7 +60,7 @@ sudo poweroff
 Remove the sdcard from the pi and insert it into the host. The first time that the image was booted it will have resized the filesystem on the sdcard to fill it. You can run the following `shrink.fs` script (found in the same directory as make-prep.sh).
 
 ```
-shrink.fs /dev/sdd gateway-base-0.5.0.img
+shrink.sh /dev/sdd gateway-base-0.5.0.img
 ```
 
 You can also specify an optional filesystem size (in megabytes). If not provided then it defaults to 2400 megabytes which is suitable for the headless image (i.e. stretch-lite).
