@@ -9,3 +9,7 @@ This assumes that you're using a SmartThings sensor which has a connect button (
 3 - If the LED flashed green then the sensor should be repaired and should start to work (assuming it was previously paired and added to the gateway)
 
 4 - If the LED is flashing blue, then press + in the UI to add new devices. This puts the zigbee dongle into pairing mode. If the sensor was previously added then you won't see a new device show up. If you see the LED flashing green then you can cancel out of the pairing mode and wait for a minute and it should start working again. If the sensor wasn't previously added, then you should see it show up. If the pairing process times out, press + again.
+
+5 - If the sensor doesn't seem to be working, repeat start at step 1 a couple times before continuing to step 5.
+
+5 - If all of that doesn't work, try removing the device from the gateway and repeating.
