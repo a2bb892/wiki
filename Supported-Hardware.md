@@ -42,6 +42,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [SmartThings Motion Sensor](https://www.smartthings.com/gb/products/smartthings-motion-sensor)
 * [SmartThings Motion Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
 * [SmartThings Water Leak Sensor](https://www.smartthings.com/gb/products/smartthings-water-leak-sensor)
+* [SmartThings Button](https://www.smartthings.com/gb/products/smartthings-button)
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
@@ -54,6 +55,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
 * [Develco Motion Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/motion-sensor/)
 * [Develco Window Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/window-sensor/)
+* [Yale YRD226 Deadbolt (Zigbee)](https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-touchscreen/)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
