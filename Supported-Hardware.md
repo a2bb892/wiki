@@ -4,6 +4,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 ### Raspbian
 
+* Raspberry Pi 1 Model B
 * Raspberry Pi 1 Model B+
 * Raspberry Pi 2 Model B
 * [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/) (recommended)
