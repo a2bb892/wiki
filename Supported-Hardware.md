@@ -7,13 +7,22 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Raspberry Pi 1 Model B
 * Raspberry Pi 1 Model B+
 * Raspberry Pi 2 Model B
-* [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/) (recommended)
-* Raspberry Pi 3 Model B+
+* [Raspberry Pi 3 Model B](https://www.raspberrypi.org/products/raspberry-pi-3-model-b/) (RPi 3 models recommended)
+* [Raspberry Pi 3 Model B+](https://www.raspberrypi.org/products/raspberry-pi-3-model-b-plus/)
+* [Raspberry Pi 3 Model A+](https://www.raspberrypi.org/products/raspberry-pi-3-model-a-plus/)
 * Raspberry Pi Zero W
 
 ### OpenWrt
 
-* (Experimental OpenWrt package coming soon)
+* [Experimental OpenWrt package](https://github.com/openwrt/packages/tree/master/lang/node-mozilla-iot-gateway) (while not yet optimized for commercial use, we recommend Turris Omnia, Linksys WRT3200ACM, Espressobin, Raspberry Pi 3, or similar powerful processors and platforms with plenty of RAM and flash) 
+
+### Debian
+
+* Experimental [Linaro](https://www.linaro.org/) support for some [96boards](https://www.96boards.org/products/) hardware
+  * DragonBoard 410c
+  * HiKey960
+  * Rock960
+  * Ultra96
 
 ***
 
@@ -102,6 +111,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Yeelight
   * [Bulbs](https://www.yeelight.com/)
 
+Bluetooth
+* See 'HomeKit' and 'Other' below
+
 ### HomeKit
 
 Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
@@ -125,7 +137,14 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
 
 * Raspberry Pi GPIO
 * Raspberry Pi I<sup>2</sup>C
-* [MKR1000](https://github.com/mozilla-iot/http-on-off-wifi101)
+* Wi-Fi developer hardware
+  * Espressif [ESP8266](https://www.espressif.com/en/products/hardware/esp8266ex/overview) and [ESP32](https://www.espressif.com/en/products/hardware/esp32/overview)
+  * Microchip [SAMD21](https://www.microchip.com/wwwproducts/en/ATsamd21g18) MCUs with [WINC1500](https://www.microchip.com/wwwproducts/en/ATwinc1500) module
+    * [MKR1000](https://store.arduino.cc/usa/arduino-mkr1000)
+    * [SAMW25 Xplained Pro](https://www.microchipdirect.com/product/search/all/ATSAMW25-XPRO)
+* Bluetooth developer hardware
+  * Nordic [nRF52 Developer Kit](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK), [Thingy52](https://www.nordicsemi.com/eng/Products/Nordic-Thingy-52), ...
+  * Nordic nRF51 BBC [micro:bit](https://microbit.org/) (using [MicroBlocks](http://microblocks.fun/) [VM](http://microblocks.fun/tech.html#techspecs) on board connecting to [MicroBlocks add-on](https://github.com/mozilla-iot/microblocks-adapter) on gw)
 * [Arduino](https://github.com/mozilla-iot/webthing-arduino)
 * [Microblocks](http://microblocks.fun/)
 * [Serial devices](https://github.com/mozilla-iot/serial-adapter)
