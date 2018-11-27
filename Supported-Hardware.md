@@ -60,6 +60,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Sylvania SMART+ Adjustable White Bulb (71831)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
 * OSRAM Lightify Tunable White Bulb (73674)
+* [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
 * [Cree Bulbs](https://creebulb.com/)
 * [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
 * [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
