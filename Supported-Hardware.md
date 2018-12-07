@@ -76,6 +76,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
+* [GE 12730 - Fan Control In-Wall Switch](https://byjasco.com/products/ge-z-wave-wall-smart-fan-control)
+* [Inovelli NZW31 Dimmer Switch + Repeater](https://inovelli.com/shop/smart-light-switches/z-wave-dimmer-switch-repeater/)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
 * [Inovelli OM71V 1 Channel Smart Plug - Outdoor Rated](https://inovelli.com/shop/outdoor-smart-plugs/outdoor-z-wave-plug-in-module-1-channel/) 
 * [Devolo Smartmetering Plug](https://www.devolo.com/en/Products/devolo-Home-Control-Smart-Metering-Plug)
