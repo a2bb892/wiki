@@ -36,6 +36,8 @@ Make sure that you do a proper eject of the sdcard and wait for unwritten data t
 
 **IMPORTANT** If you want the final image to include wireless support, then your Raspberry Pi that you build the base image on should have a wifi dongle that is supported by the default raspbian image.
 
+In light of the above two items, the images that are released for the Mozilla IoT gateway have their base images created using a Raspberry Pi 2 which has a compatible USB wireless dongle plugged in. By compatible, I mean supported by raspbian without having to install any additional wireless drivers.
+
 Once it's booted, you should be able to login through the serial console or via ssh (if you enabled ssh):
 ```
 ssh pi@gateway.local
