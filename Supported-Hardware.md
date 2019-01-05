@@ -149,7 +149,7 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
 * Bluetooth developer hardware
   * Nordic [nRF52 Developer Kit](https://www.nordicsemi.com/eng/Products/Bluetooth-low-energy/nRF52-DK), [Thingy52](https://www.nordicsemi.com/eng/Products/Nordic-Thingy-52), ...
   * Nordic nRF51 BBC [micro:bit](https://microbit.org/) (using [MicroBlocks](http://microblocks.fun/) [VM](http://microblocks.fun/tech.html#techspecs) on board connecting to [MicroBlocks add-on](https://github.com/mozilla-iot/microblocks-adapter) on gw)
-* [Arduino](https://github.com/mozilla-iot/webthing-arduino)
+* [Arduino](https://github.com/mozilla-iot/webthing-arduino) (Mega256 + [STM32] boards)
 * [Microblocks](http://microblocks.fun/)
 * [Serial devices](https://github.com/mozilla-iot/serial-adapter)
 * [Pimoroni Blinkt!](https://shop.pimoroni.com/products/blinkt)
