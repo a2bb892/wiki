@@ -1,6 +1,6 @@
 # Download and unpack Raspbian Stretch Lite
 ```
-wget https://downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2017-12-01/2017-11-29-raspbian-stretch-lite.zip
+wget http://director.downloads.raspberrypi.org/raspbian_lite/images/raspbian_lite-2018-11-15/2018-11-13-raspbian-stretch-lite.zip
 ```
 
 # Run the make-prep.sh script
@@ -23,7 +23,7 @@ where OPTION can be one of:
 ```
 A typical invocation might look like:
 ```
-make-prep.sh --dd /dev/sdd 2018-06-27-raspbian-stretch-lite.zip gateway-prep-0.5.0.img
+make-prep.sh --dd /dev/sdd 2018-11-13-raspbian-stretch-lite.zip gateway-0.7.0-prep.img
 ```
 
 # Eject the SD card from the host
@@ -62,7 +62,7 @@ sudo poweroff
 Remove the sdcard from the pi and insert it into the host. The first time that the image was booted it will have resized the filesystem on the sdcard to fill it. You can run the following `shrink.fs` script (found in the same directory as make-prep.sh).
 
 ```
-shrink.sh /dev/sdd gateway-base-0.5.0.img
+shrink.sh /dev/sdd gateway-0.7.0-base.img
 ```
 
 You can also specify an optional filesystem size (in megabytes). If not provided then it defaults to 2400 megabytes which is suitable for the headless image (i.e. stretch-lite).
@@ -71,7 +71,7 @@ You can also specify an optional filesystem size (in megabytes). If not provided
 
 Run image-to-aws.sh (found in the same directory as make-prep.sh):
 ```
-image-to-aws.sh gateway-base-0.5.0.img
+image-to-aws.sh gateway-0.7.0-base.img
 ```
 
 See [this page](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) for instructions on installing the AWS command line tool. You can test that the aws command line tool is working properly by using the command:
