@@ -101,6 +101,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [Bulbs](https://www.lifx.com/collections/featured-products#lights)
 * Logitech
   * [Harmony Hub](https://www.logitech.com/en-us/product/harmony-hub)
+* Nanoleaf
+  * [Lights](https://nanoleaf.me/en/)
 * Netatmo
   * [Weather Station &amp; Modules](https://www.netatmo.com/en-US/product/weather/)
   * [Healthy Home Coach](https://www.netatmo.com/en-US/product/aircare/homecoach)
@@ -119,7 +121,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Yeelight
   * [Bulbs](https://www.yeelight.com/)
 
-Bluetooth
+### Bluetooth
+
+* [Flic Buttons](https://flic.io/)
 * See 'HomeKit' and 'Other' below
 
 ### HomeKit
