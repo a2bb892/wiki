@@ -93,6 +93,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * Eufy
   * [Switches &amp; Plugs](https://www.eufylife.com/collections/smart)
   * [Bulbs](https://www.eufylife.com/collections/led)
+* Foscam
+  * [Foscam R2](https://www.foscam.com/R2.html) IP camera
 * Google
   * [Chromecast](https://store.google.com/category/home_entertainment)
 * LIFX
@@ -127,17 +129,21 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
 **Note**: Devices typically need to be unpaired from iOS (or their Android app) before using them with the gateway.
 
 * Smart plugs
-  * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
-  * [Koogeek P1](https://www.koogeek.com/p-p1.html)
-  * [Eve Energy](https://www.evehome.com/en/eve-energy)
+    * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
+    * [Koogeek P1](https://www.koogeek.com/p-p1.html)
+    * [Eve Energy](https://www.evehome.com/en/eve-energy)
 * Bridges
-  * [Homebridge](https://github.com/nfarina/homebridge)
-  * [Philips Hue Bridge v2](https://www2.meethue.com/en-us/p/hue-bridge/046677458478)
+    * [Homebridge](https://github.com/nfarina/homebridge)
 * Light bulbs
-  * [LIFX A19](https://www.lifx.com/products/lifx)
+    * [LIFX A19](https://www.lifx.com/products/lifx)
 * Sensors
-  * [Eve Door &amp; Window](https://www.evehome.com/en/eve-door-window)
-  * [Eve Motion](https://www.evehome.com/en/eve-motion)
+    * [Eve Door &amp; Window](https://www.evehome.com/en/eve-door-window)
+    * [Eve Motion](https://www.evehome.com/en/eve-motion)
+    * [Eve Room](https://www.evehome.com/en/eve-room)
+    * [Eve Degree](https://www.evehome.com/en/eve-degree)
+    * [Fibaro Flood Sensor](https://www.fibaro.com/en/products/flood-sensor/)
+* Buttons
+    * [Eve Button](https://www.evehome.com/en/eve-button)
 
 ### Other
 
