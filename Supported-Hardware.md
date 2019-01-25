@@ -110,6 +110,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [Bulbs](https://www2.meethue.com/en-us/products#filters=STARTER_KITS_SU%2CBULBS_SU%2CLIGHTSTRIPS_SU%2CLAMPS_SU&sliders=&support=&price=&priceBoxes=&page=&layout=12.subcategory.p-grid-icon) -- using Zigbee to Wi-Fi bridge
   * [Indoor motion sensor](https://www2.meethue.com/en-us/p/hue-motion-sensor/046677473389) -- shows up as three devices
   * [Dimmer switch](https://www2.meethue.com/en-us/p/hue-dimmer-switch/046677473372)
+* Roku
+  * [Players and TVs](https://www.roku.com/)
 * Sonos
   * [Speakers](https://www.sonos.com/en-us/shop)
 * TP-Link
