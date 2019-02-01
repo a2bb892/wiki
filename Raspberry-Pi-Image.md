@@ -26,4 +26,4 @@ The [rpi-image-builder](https://github.com/mozilla-iot/rpi-image-builder) reposi
 
 # Create Final Image
 
-The [add-gateway.sh](https://github.com/mozilla-iot/gateway/blob/master/image/add-gateway.sh) script is them used to add the gateway and openzwave into the base image to create the final image.
+The [add-gateway.sh](https://github.com/mozilla-iot/gateway/blob/master/image/add-gateway.sh) script is then used to add the gateway and openzwave into the base image to create the final image.
