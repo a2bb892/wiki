@@ -68,6 +68,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Develco Motion Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/motion-sensor/)
 * [Develco Window Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/window-sensor/)
 * [Yale YRD226 Deadbolt (Zigbee)](https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-touchscreen/)
+* [Keen Smart Vents](https://keenhome.io/)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
