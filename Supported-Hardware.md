@@ -47,6 +47,17 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 ### Zigbee
 
+* [Cree Bulbs](https://creebulb.com/)
+* [Develco Motion Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/motion-sensor/)
+* [Develco Window Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/window-sensor/)
+* [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
+* [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
+* [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
+* [Keen Smart Vents](https://keenhome.io/)
+* [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
+* OSRAM Lightify Tunable White Bulb (73674)
+* [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
+* [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
 * [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
 * [SmartThings Multipurpose Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
@@ -54,37 +65,26 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [SmartThings Motion Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
 * [SmartThings Water Leak Sensor](https://www.smartthings.com/gb/products/smartthings-water-leak-sensor)
 * [SmartThings Button](https://www.smartthings.com/gb/products/smartthings-button)
-* [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
-* [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [Sylvania SMART+ Smart Plug 729222-A](https://consumer.sylvania.com/our-products/smart/smart-connected-lighting/index.jsp)
 * [Sylvania SMART+ ZigBee 2 Button Dimming Switch](https://consumer.sylvania.com/our-products/smart/product-info/zigbee/sylvania-smart-zigbee-2-button-dimming-switch/index.jsp)
 * Sylvania SMART+ Adjustable White Bulb (71831)
-* [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
-* OSRAM Lightify Tunable White Bulb (73674)
-* [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
-* [Cree Bulbs](https://creebulb.com/)
-* [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
-* [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
-* [Develco Motion Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/motion-sensor/)
-* [Develco Window Sensor](https://www.develcoproducts.com/products/sensors-and-alarms/window-sensor/)
 * [Yale YRD226 Deadbolt (Zigbee)](https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-touchscreen/)
-* [Keen Smart Vents](https://keenhome.io/)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
 
 * [Aeotec Smart Switch 6](https://aeotec.com/z-wave-plug-in-switch)
 * [Aeotec Smart Dimmer 6](https://aeotec.com/z-wave-plug-in-dimmer)
-* [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
-* [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been suprceded by the DZPA1.
+* [Devolo Smartmetering Plug](https://www.devolo.com/en/Products/devolo-Home-Control-Smart-Metering-Plug)
+* [Fibaro Wall Plug 2 FGWPF-102-ZW5](https://www.fibaro.com/en/products/wall-plug/)
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
 * [GE 12730 - Fan Control In-Wall Switch](https://byjasco.com/products/ge-z-wave-wall-smart-fan-control)
+* [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
 * [Inovelli NZW31 Dimmer Switch + Repeater](https://inovelli.com/shop/smart-light-switches/z-wave-dimmer-switch-repeater/)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
 * [Inovelli OM71V 1 Channel Smart Plug - Outdoor Rated](https://inovelli.com/shop/outdoor-smart-plugs/outdoor-z-wave-plug-in-module-1-channel/) 
-* [Devolo Smartmetering Plug](https://www.devolo.com/en/Products/devolo-Home-Control-Smart-Metering-Plug)
+* [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been superceded by the DZPA1.
 * [Neo Coolcam smart power Plug](http://www.szneo.com/en/products/index.php?id=41)
-* [Fibaro Wall Plug 2 FGWPF-102-ZW5](https://www.fibaro.com/en/products/wall-plug/)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 
 ### Wi-Fi
