@@ -53,6 +53,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZB4101 - On/Off Light and Small Appliance Module](https://byjasco.com/products/ge-zigbee-plug-smart-switch)
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
+* [IKEA TRÅDFRI Wireless Control Outlet](https://www.ikea.com/us/en/catalog/products/30356169/)
 * [Keen Smart Vents](https://keenhome.io/)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
 * OSRAM Lightify Tunable White Bulb (73674)
