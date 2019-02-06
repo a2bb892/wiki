@@ -48,4 +48,6 @@ If you'd like to use the Turris Omnia as an access point (i.e. part of an existi
 
 The gateway software is installed into /opt/mozilla-iot/gateway and the configuration directory is /.mozilla-iot
 
-I haven't figured out where the log files are yet.
+The log messages get logged into /var/log/messages. You can use `grep npm /var/log/messages` to get at the messages.
+
+The gateway is managed using [procd](https://openwrt.org/docs/techref/procd) and the configuration file can be found in `/etc/init.d/mozilla-iot.gateway`
