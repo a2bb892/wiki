@@ -99,6 +99,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [Foscam R2](https://www.foscam.com/R2.html) IP camera
 * Google
   * [Chromecast](https://store.google.com/category/home_entertainment)
+* LG
+  * [webOS-based Smart Televisions](https://www.lg.com/us/tvs)
 * LIFX
   * [Bulbs](https://www.lifx.com/collections/featured-products#lights)
 * Logitech
