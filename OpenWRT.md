@@ -13,7 +13,9 @@ Edit the file packages/lang/node-mozilla-iot-gateway/Makefile and change followi
 
 Rerun `make`
 
-# Miscellaneous notes about OpenWRT
+# Miscellaneous notes about using OpenWRT
+
+These are some common things that I needed to do to use the gateway on my network.
 
 ## Enabling DHCP Client (for LAN)
 ```
