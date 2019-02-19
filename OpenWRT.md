@@ -13,3 +13,30 @@ Edit the file packages/lang/node-mozilla-iot-gateway/Makefile and change followi
 
 Rerun `make`
 
+# Miscellaneous notes about OpenWRT
+
+## Enabling DHCP Client (for LAN)
+```
+  uci set network.lan.proto=dhcp
+  uci commit
+  /etc/init.d/network restart
+```
+## Enabling Wireless
+```
+  uci set wireless.radio0.disabled=0
+  uci set wireless.default_radio0.ssid='OpenWrt'
+  uci commit
+  /etc/init.d/network restart
+```
+## Enabling WPA2
+```
+  uci set wireless.@wifi-iface[0].encryption=psk2
+  uci set wireless.@wifi-iface[0].key="1234567890"
+  uci commit wireless
+  wifi
+```
+## Disabling DHCP Server (for WAN)
+```
+  /etc/init.d/odhcpd disable
+  /etc/init.d/odhcpd stop
+```
