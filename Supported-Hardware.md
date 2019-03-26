@@ -70,6 +70,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Sylvania SMART+ ZigBee 2 Button Dimming Switch](https://consumer.sylvania.com/our-products/smart/product-info/zigbee/sylvania-smart-zigbee-2-button-dimming-switch/index.jsp)
 * Sylvania SMART+ Adjustable White Bulb (71831)
 * [Yale YRD226 Deadbolt (Zigbee)](https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-touchscreen/)
+* Xiaomi Aqara WSDCGQ11LM temperature/pressure/humidity (https://www.aqara.com/en/temperature_and_humidity_sensor-product.html)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
