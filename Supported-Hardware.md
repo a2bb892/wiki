@@ -93,6 +93,9 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 * Broadlink
   * [IR devices](http://www.ibroadlink.com/)
+* Etekcity
+  * [Smart Plugs](https://www.etekcity.com/productcate/59/list)
+  * [Switches](https://www.etekcity.com/productcate/121/list)
 * Eufy
   * [Switches &amp; Plugs](https://www.eufylife.com/collections/smart)
   * [Bulbs](https://www.eufylife.com/collections/led)
@@ -106,6 +109,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [Bulbs](https://www.lifx.com/collections/featured-products#lights)
 * Logitech
   * [Harmony Hub](https://www.logitech.com/en-us/product/harmony-hub)
+* Meross
+  * [Smart Plugs](https://www.meross.com/product?category_id=4)
 * Nanoleaf
   * [Lights](https://nanoleaf.me/en/)
 * Netatmo
@@ -117,6 +122,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
   * [Dimmer switch](https://www2.meethue.com/en-us/p/hue-dimmer-switch/046677473372)
 * Roku
   * [Players and TVs](https://www.roku.com/)
+* Sengled
+  * [Smart Bulbs (Wi-Fi)](https://us.sengled.com/products)
 * Sonos
   * [Speakers](https://www.sonos.com/en-us/shop)
 * TP-Link
