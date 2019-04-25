@@ -42,3 +42,50 @@ These are some common things that I needed to do to use the gateway on my networ
   /etc/init.d/odhcpd disable
   /etc/init.d/odhcpd stop
 ```
+
+## Opening ports on the firwall
+
+By default, OpenWRT doesn't allow access from the WAN side, but when debugging things and your OpenWRT router's WAN is on your local LAN, then it's useful to open some ports. The following script will do that:
+```
+#!/bin/sh
+
+# allows ssh and http on the WAN side
+
+uci add firewall rule
+uci set firewall.@rule[-1].target='ACCEPT'
+uci set firewall.@rule[-1].src='wan'
+uci set firewall.@rule[-1].proto='tcp'
+uci set firewall.@rule[-1].dest_port='22'
+uci set firewall.@rule[-1].name='allow-ssh-22'
+
+uci add firewall rule
+uci set firewall.@rule[-1].target='ACCEPT'
+uci set firewall.@rule[-1].src='wan'
+uci set firewall.@rule[-1].proto='tcp'
+uci set firewall.@rule[-1].dest_port='80'
+uci set firewall.@rule[-1].name='allow-http-80'
+
+uci add firewall rule
+uci set firewall.@rule[-1].target='ACCEPT'
+uci set firewall.@rule[-1].src='wan'
+uci set firewall.@rule[-1].proto='tcp'
+uci set firewall.@rule[-1].dest_port='8080'
+uci set firewall.@rule[-1].name='allow-http-8080'
+
+uci add firewall rule
+uci set firewall.@rule[-1].target='ACCEPT'
+uci set firewall.@rule[-1].src='wan'
+uci set firewall.@rule[-1].proto='tcp'
+uci set firewall.@rule[-1].dest_port='443'
+uci set firewall.@rule[-1].name='allow-https-443'
+
+uci add firewall rule
+uci set firewall.@rule[-1].target='ACCEPT'
+uci set firewall.@rule[-1].src='wan'
+uci set firewall.@rule[-1].proto='tcp'
+uci set firewall.@rule[-1].dest_port='4443'
+uci set firewall.@rule[-1].name='allow-https-4443'
+
+uci commit firewall
+/etc/init.d/firewall restart
+```
