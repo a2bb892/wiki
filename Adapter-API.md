@@ -97,6 +97,7 @@ To define new device properties, the package can optionally subclass `Property`,
     - `minimum` - (Optional) Minimum value of the property.
 - `isVisible()` - Return whether or not this property should be visible to the gateway.
 - `setCachedValue(value)` - Sets `this.value` and makes adjustments to ensure that the value is consistent with the type. The adjusted value should be returned.
+- `setCachedValueAndNotify(value)` - Calls `setCachedValue` and notifies the device if the value has changed. Returns true if the value has changed.
 - `getValue()` - Return a `Promise` that will resolve to the property's value.
 - `setValue(value)` - Return a `Promise` that will resolve to the set value, after adjustments by `setCachedValue(value)`.
 
