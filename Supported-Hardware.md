@@ -73,6 +73,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Xiaomi Aqara WSDCGQ11LM temperature/pressure/humidity](https://www.aqara.com/en/temperature_and_humidity_sensor-product.html)
 * [Cheap Zigbee On/Off Controller From eBay](https://www.ebay.com.au/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=+Zigbee+On%2FOff+Controller&_sacat=0) 
 * [Nue Smart ZigBee Light Dimmer Switch Model HGZB-01A](https://3asmarthome.com/smart-in-ceiling-light-dimmer)
+* [GLEDOPTO RGB + CCT LED Controller](http://www.gledopto.com/h-col-303.html)
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
 ### Z-Wave
