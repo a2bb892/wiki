@@ -4,15 +4,15 @@ You'll need to edit one of the files from the zigbee adapter. The first step is 
 
 Once you've located the addons directory, you should see a zigbee-adapter directory containing the files for the zigbee adapter. Since we're going to be editing the files, we need to disable the integrity checking. The simplist way is to create a `.git` subdirectory inside the zigbee-adapter directory. A second way is to remove the `SHA256SUMS` entry from the `files` key inside the `package.json` file.
 
-Now that you've disabled the integrity check, you can edit the source files. To enable debugging, edit the zb-adapter.js file and seach for the first occurrence of debugFrames. You should see something like this:
+Now that you've disabled the integrity check, you can edit the source files. To enable debugging, edit the zb-ebug.js file and seach for the first occurrence of debugFrames. You should see something like this:
 ```js
     // debugFrames causes a 1-line summary to be printed for each frame
     // which is sent or received.
-    this.debugFrames = false;
+    DEBUG_frames: false;
 
     // debugFrameDetail causes detailed information about each frame to be
     // printed.
-    this.debugDumpFrameDetail = false;
+    DEBUG_frameDetail: false;
 ```
 Setting `debugFrames` to true will cause a 1-line summary to be printed. Setting `debugFrameDetail` to true will cause the full frame to be printed.
 
