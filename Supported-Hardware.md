@@ -70,11 +70,22 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Sylvania SMART+ ZigBee 2 Button Dimming Switch](https://consumer.sylvania.com/our-products/smart/product-info/zigbee/sylvania-smart-zigbee-2-button-dimming-switch/index.jsp)
 * Sylvania SMART+ Adjustable White Bulb (71831)
 * [Yale YRD226 Deadbolt (Zigbee)](https://www.yalehome.com/en/yale/yalehome/residential/yale-real-living/assure-lock/yrl-assurelock-touchscreen/)
-* [Xiaomi Aqara WSDCGQ11LM temperature/pressure/humidity](https://www.aqara.com/en/temperature_and_humidity_sensor-product.html)
 * [Cheap Zigbee On/Off Controller From eBay](https://www.ebay.com.au/sch/i.html?_from=R40&_trksid=m570.l1313&_nkw=+Zigbee+On%2FOff+Controller&_sacat=0) 
 * [Nue Smart ZigBee Light Dimmer Switch Model HGZB-01A](https://3asmarthome.com/smart-in-ceiling-light-dimmer)
 * [GLEDOPTO RGB + CCT LED Controller](http://www.gledopto.com/h-col-303.html)
+
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
+
+The following Xiaomi devices have been seen working, but most of battery powered the Xiaomi devices do not follow
+the Zigbee spec, and may or may not work reliably. Some devices will work for a while after paired, but then stop
+working. This may depend on the other "router" devices found on the Zigbee network. Apparently Xiaomi is addressing this and some newer devices are Zigbee 3.0 compliant. See: https://community.smartthings.com/t/original-aqara-xiaomi-zigbee-sensors-contact-temp-motion-button-outlet-leak-etc/113253/1103
+
+* [Xiaomi Aqara WSDCGQ11LM temperature/pressure/humidity](https://www.aqara.com/en/temperature_and_humidity_sensor-product.html) (square) (lumi.weather)
+* Xiaomi MCCGQ01LM door and window sensor (lumi.sensor_magnet)
+* Xiaomi WXKG01LM Smart Wireless Switch (lumi.sensor_switch)
+* Xiaomi RTCGQ01LM IR Motion Sensor (lumi.sensor_motion)
+* Xiaomi RTCGQ11LM IR Motion Sensor (lumi.sensor_motion.aq2)
+* Xiaomi RTCGQ01LM (round) (lumi.sensor_ht)
 
 ### Z-Wave
 
