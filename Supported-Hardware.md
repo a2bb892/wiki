@@ -32,6 +32,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 
 * [Digi XStick](https://www.digi.com/products/xbee-rf-solutions/boxed-rf-modems-adapters/xstick) (ZB mesh version)
 * [ConBee Zigbee USB stick](https://phoscon.de/conbee)
+* [ConBee II Zigbee USB stick](https://phoscon.de/en/conbee2) also available on [Amazon](https://www.amazon.com/dresden-elektronik-ConBee-Universal-Gateway/dp/B07PZ7ZHG5)
 
 ### Z-Wave
 
