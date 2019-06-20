@@ -55,5 +55,5 @@ You can see this in fetch calls to '/settings/tunnelinfo' in settings.js.
 
 #### Section 4
 
-The client side will drive changes in the DOM for the index.html file by hidding or showing different menu options. This means that the application is based around the single web page model where pages are dynamically manipulated by the client side.
+The client side will drive changes in the DOM for the index.html file by hiding or showing different menu options. This means that the application is based around the single web page model where pages are dynamically manipulated by the client side.
 The server is used to supply data that populates the client. You can find out more here about [SPA'S](https://en.wikipedia.org/wiki/Single-page_application)
