@@ -65,7 +65,7 @@ Remove the sdcard from the pi and insert it into the host. The first time that t
 shrink.sh /dev/sdd gateway-0.7.0-base.img
 ```
 
-You can also specify an optional filesystem size (in megabytes). If not provided then it defaults to 2400 megabytes which is suitable for the headless image (i.e. stretch-lite).
+You can also specify an optional filesystem size (in megabytes). If not provided then it defaults to 3000 megabytes which is suitable for the headless image (i.e. stretch-lite).
 
 # Copy the image to AWS
 
