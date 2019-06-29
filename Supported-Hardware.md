@@ -97,6 +97,7 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * [GE ZW4103 - Plug-in Smart Switch](https://products.z-wavealliance.org/products/1435)
 * [GE 12730 - Fan Control In-Wall Switch](https://byjasco.com/products/ge-z-wave-wall-smart-fan-control)
 * [GoControl Z-Wave Bulb](http://www.gocontrol.com/detail.php?productId=7)
+* [Heiman Smoke Sensor HS1SA-Z](http://www.heimantech.com/product/89.html)
 * [Inovelli NZW31 Dimmer Switch + Repeater](https://inovelli.com/shop/smart-light-switches/z-wave-dimmer-switch-repeater/)
 * [Inovelli NZW37 2 Channel Dual Smart Plug](https://inovelli.com/shop/smart-plugs/2-channel-smart-plug/)  Only channel 1 is detected
 * [Inovelli OM71V 1 Channel Smart Plug - Outdoor Rated](https://inovelli.com/shop/outdoor-smart-plugs/outdoor-z-wave-plug-in-module-1-channel/) 
