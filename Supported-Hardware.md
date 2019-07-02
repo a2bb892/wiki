@@ -61,7 +61,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
 * [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
-* [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
+* [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor)
 * [SmartThings Multipurpose Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
 * [SmartThings Motion Sensor](https://www.smartthings.com/gb/products/smartthings-motion-sensor)
 * [SmartThings Motion Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-motion-sensor-2016)
