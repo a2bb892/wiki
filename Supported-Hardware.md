@@ -55,6 +55,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
 * [IKEA TRÅDFRI Wireless Control Outlet](https://www.ikea.com/us/en/catalog/products/30356169/)
+* [INNR Smart Bulb Colour - RB 285 C](https://shop.innrlighting.com/en/shop/143/smart-bulb-colour-e27-z3.0)
+* [INNR Smart Bulb Comfort - RB 278 T](https://shop.innrlighting.com/en/shop/142/smart-bulb-comfort-e27-z3.0-2-pack)
 * [Keen Smart Vents](https://keenhome.io/)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
 * OSRAM Lightify Tunable White Bulb (73674)
