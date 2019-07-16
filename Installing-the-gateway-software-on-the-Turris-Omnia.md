@@ -5,4 +5,6 @@
 * It takes about 30 seconds for the new image to boot
 * It takes about 2 minutes for the gateway to startup (it still runs webpack)
 * You should then be able to connect to WebThings Gateway XXXX WiFi AP and browse to gateway.local (or 192.168.2.1) - currently the captive portal isn't working.
+* The Foris user interface is available on http://gateway.local:81 or https://gateway.local:444
+* The gateway interface is available on ports 80 and 8080 and https on 443 and 4443 (same as the Raspbian image)
 
