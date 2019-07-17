@@ -107,6 +107,7 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * [Leviton VRPA1 - Plug-in Outlet Module](http://www.leviton.com/en/products/dzpa1-2bw) The VRPA1 apepars to have been superceded by the DZPA1.
 * [Neo Coolcam smart power Plug](http://www.szneo.com/en/products/index.php?id=41)
 * [Neo Coolcam motion sensor 2 - Motion, temperature and lux, ](https://szneo.com/en/products/show.php?id=190)
+* [Neo Coolcam water sensor](https://www.szneo.com/en/products/show.php?id=191)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 
 ### Wi-Fi
