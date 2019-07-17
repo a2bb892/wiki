@@ -108,6 +108,7 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * [Neo Coolcam smart power Plug](http://www.szneo.com/en/products/index.php?id=41)
 * [Neo Coolcam motion sensor 2 - Motion, temperature and lux, ](https://szneo.com/en/products/show.php?id=190)
 * [Neo Coolcam water sensor](https://www.szneo.com/en/products/show.php?id=191)
+* [Spetu water/natural gas valve switch](https://www.aliexpress.com/item/32902232784.html)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 
 ### Wi-Fi
