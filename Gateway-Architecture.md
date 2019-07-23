@@ -8,7 +8,11 @@ The system has 2 main parts, the backend server side, and the front end client s
 
 Architecture Diagram 1:
 
-![Mozilla WoT Gateway Architecture](https://github.com/mozilla-iot/wiki/blob/master/wiki/images/wot_gw.png) *NOTE: Link currently broken.*
+![Mozilla WoT Gateway Architecture](https://github.com/mozilla-iot/wiki/blob/master/wiki/images/wot_gw.png)
+
+*Proper image link is currently not working. As interim, you can see it here:*  
+![Mozilla WoT Gateway Architecture](https://raw.githubusercontent.com/mozilla-iot/wiki/c104bfe39323e975fd9c6a79dcc84ca34d83b576/images/wot_gw.png) 
+
 
 ### Server Side Components
 
