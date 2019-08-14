@@ -1,6 +1,6 @@
 There is one code change required on your local Gateway to test the prerelease OTA update.
 
-Change https://github.com/mozilla-iot/gateway/blob/master/config/default.js#L69, replacing the api.mozilla-iot.org URL with `https://api.github.com/repos/hobinjk/gateway/releases`
+Change https://github.com/mozilla-iot/gateway/blob/master/config/default.js#L72, replacing the api.mozilla-iot.org URL with `https://api.github.com/repos/hobinjk/gateway/releases`
 to make it look like:
 ```javascript
   updateUrl: 'https://api.github.com/repos/hobinjk/gateway/releases',
