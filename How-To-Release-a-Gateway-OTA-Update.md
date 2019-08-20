@@ -1,11 +1,15 @@
 1. Bump the [semantic version](http://semver.org/) in [package.json](https://github.com/mozilla-iot/gateway/blob/master/package.json)
 2. Push the bump to master
-3. Make a clone of this repo *on a raspberry pi*
-4. Run `./tools/generate-release.sh`, producing `gateway-<hash>.tar.gz`
+3. Make an image with the new code updates
+4. Flash this image on a Pi, touch `/boot/ssh`, run the initial setup until you can ssh in
+5. In the pi's gateway directory run `./tools/generate-release.sh`, producing `gateway-<hash>.tar.gz`
    and `node_modules-<hash>.tar.gz`
-5. Create a release using the version from step 1 as its tag name
-6. Attach the release archives to this release
-7. Publish the release when ready or save as a draft
+6. `scp` back these archives onto the computer where you'll be clicking around and uploading the release
+7. On github create a release using the version from step 1 as its tag name (e.g. 0.9.2)
+8. Attach the release archives to this release
+9. Publish the release when ready or save as a draft
+
+Example testing release: https://github.com/hobinjk/gateway/releases/tag/0.9.2
 
 # What Comes Next
 1. Gateway's `cron` runs [tools/check-for-update.js](https://github.com/mozilla-iot/gateway/blob/master/tools/check-for-update.js)
