@@ -38,7 +38,8 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 ### Z-Wave
 
 * [Zwave.me UZB Stick](https://z-wave.me/uzb/)
-* [Aeotec Z-Stick](http://aeotec.com/z-wave-usb-stick) (Gen5) - note the Z-Stick Gen 5 isn't recognized when plugged in directly to the Raspberry Pi 4. Some hubs seem to allow it to work. In particular, it works for me using [this one](https://www.adafruit.com/product/961) as an unpowered hub. 
+* [Aeotec Z-Stick](http://aeotec.com/z-wave-usb-stick) (Gen5) - note the Z-Stick Gen 5 isn't recognized when plugged in directly to the Raspberry Pi 4. Some hubs seem to allow it to work. In particular, it works for me using [this one](https://www.adafruit.com/product/961) as an unpowered hub.
+* [Zooz S2 USB Stick](http://www.getzooz.com/zooz-zst10-s2-stick.html)
 * Any [OpenZWave compatible dongle](https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List) should work, but have not all been tested
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
