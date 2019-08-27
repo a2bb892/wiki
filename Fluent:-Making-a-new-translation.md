@@ -1,3 +1,4 @@
+- Start in the WebThings Gateway repository: https://github.com/mozilla-iot/gateway
 - Copy `static/fluent/en-US/main.ftl` to `static/fluent/<your language>/main.ftl`
 - Translate the text in that file
 - Perform the following code changes
