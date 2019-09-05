@@ -72,11 +72,11 @@ Reply sent from the gateway back to the plugin.
     pluginId: 'pluginId-string',
     ipcBaseAddr: 'gateway.plugin.xxx',
     userProfile: {
-      baseDir: "/home/pi/.mozilla-iot",
-      configDir: "/home/pi/.mozilla-iot/config",
-      mediaDir: "/home/pi/.mozilla-iot/media",
-      logDir: "/home/pi/.mozilla-iot/log",
-      gatewayDir: "/home/pi/mozilla-iot/gateway",
+      baseDir: '/home/pi/.mozilla-iot',
+      configDir: '/home/pi/.mozilla-iot/config',
+      mediaDir: '/home/pi/.mozilla-iot/media',
+      logDir: '/home/pi/.mozilla-iot/log',
+      gatewayDir: '/home/pi/mozilla-iot/gateway',
     },
   },
 }
