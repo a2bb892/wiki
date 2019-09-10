@@ -6,7 +6,7 @@ The Raspberry Pi 3 includes Bluetooth and Wifi, so it is generally preferred ove
 
 # Zigbee
 
-We currently only support the [Digi XStick2 ZB](https://www.digi.com/products/xbee-rf-solutions/boxed-rf-modems-adapters/xstick) dongle. This dongle has a part number of XU-Z11 and can be purchased from [Mouser](http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyXU-Z11). It looks like DigiKey doesn't stock this any more. It's IMPORTANT that you get an "XSTICK2 ZB" and NOT an "XSTICK1 802.15.4".
+We currently only support the [Digi XStick2 ZB](https://www.digi.com/products/xbee-rf-solutions/boxed-rf-modems-adapters/xstick) dongle. This dongle has a part number of XU-Z11 and can be purchased from [Mouser](http://www.mouser.com/search/ProductDetail.aspx?R=0virtualkey0virtualkeyXU-Z11) or [DigiKey](https://www.digikey.com/product-detail/en/digi-international/XU-Z11/602-1144-ND/2199598). It's IMPORTANT that you get an "XSTICK2 ZB" and NOT an "XSTICK1 802.15.4".
 
 In North America, the [GE Smart Dimmer](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer) [GE Smart Switch](https://byjasco.com/products/ge-zigbee-plug-smart-switch) and [Centralite 4256060](https://www.amazon.com/CentraLite-Lighting-Control-Zigbee-4256050-ZHAC/dp/B00IUMU1RM) are known to work.
 
