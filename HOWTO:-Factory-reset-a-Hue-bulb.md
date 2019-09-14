@@ -18,6 +18,6 @@ It looks like this: <img src="https://raw.githubusercontent.com/mozilla-iot/wiki
 1. The green LED on the remote should come on and may blink a few times.
 1. Continue to hold both buttons on the remote until the green LED goes off completely.
 
-# Method 3 - Use the hue-tief
+# Method 3 - Use the hue-thief
 
 For this method, you will need a zigbee compatible usb key and a linux. Follow the instruction on the README of the project: https://github.com/vanviegen/hue-thief.
