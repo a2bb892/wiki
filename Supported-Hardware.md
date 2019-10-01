@@ -80,6 +80,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [Nue Smart ZigBee Light Dimmer Switch Model HGZB-01A](https://3asmarthome.com/smart-in-ceiling-light-dimmer)
 * [GLEDOPTO RGB + CCT LED Controller](http://www.gledopto.com/h-col-303.html)
 * [Zen Thermostat](https://zenecosystems.com/zenthermostat/)
+* [Centralite HA 3156105 Thermostat (Zigbee) ](https://centralite.com/)
 
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
