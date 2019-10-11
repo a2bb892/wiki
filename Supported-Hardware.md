@@ -61,6 +61,7 @@ With Project Things, Mozilla aims to create interoperability and user choice on 
 * [INNR Smart Bulb Comfort - RB 278 T](https://shop.innrlighting.com/en/shop/142/smart-bulb-comfort-e27-z3.0-2-pack)
 * [INNR Smart filament Bulb white - RF 265](https://shop.innrlighting.com/en/shop/203/smart-filament-bulb-white-e27)
 * [Keen Smart Vents](https://keenhome.io/)
+* [LUPUS Small Zigbee Temperature Sensor](https://www.lupus-electronics.de/shop/en/Alarm-Smarthome/Smarthome-Home-Automation/LUPUS-Small-ZigBee-Temperatursensor-p.html)
 * [OSRAM Smart+ Plug EU](https://www.osram-lamps.com/ecatalog/smart-home/smart-home-components/smart-plug/index.jsp)
 * OSRAM Lightify Tunable White Bulb (73674)
 * [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
