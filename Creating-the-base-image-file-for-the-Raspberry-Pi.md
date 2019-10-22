@@ -32,7 +32,7 @@ Make sure that you do a proper eject of the sdcard and wait for unwritten data t
 
 # Plugin your Raspberry Pi to a wired network and a serial console
 
-The builds that we distribute have SSH disablked by default, so you'll need a serial console and a wired network connection. The prepare-base.sh script needs to be able to do `sudo apt update` and `sudo apt upgrade` in order to work properly.
+The builds that we distribute have SSH disabled by default, so you'll need a serial console and a wired network connection. The prepare-base.sh script needs to be able to do `sudo apt update` and `sudo apt upgrade` in order to work properly.
 
 # Boot a Raspberry Pi using the SDCard
 
