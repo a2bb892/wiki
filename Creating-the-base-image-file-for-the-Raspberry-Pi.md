@@ -30,6 +30,10 @@ make-prep.sh --dd /dev/sdd 2018-11-13-raspbian-stretch-lite.zip gateway-0.7.0-pr
 
 Make sure that you do a proper eject of the sdcard and wait for unwritten data to be written. The root partition is EXT4 and just pulling the sdcard will almost certainly corrupt it.
 
+# Plugin your Raspberry Pi to a wired network and a serial console
+
+The builds that we distribute have SSH disablked by default, so you'll need a serial console and a wired network connection. The prepare-base.sh script needs to be able to do `sudo apt update` and `sudo apt upgrade` in order to work properly.
+
 # Boot a Raspberry Pi using the SDCard
 
 **IMPORTANT** If you want the final image to be used on Raspberry Pi earlier than a an RPi 3 then the base image will need to be built/booted on an earlier model of Raspberry Pi.
