@@ -1,10 +1,9 @@
 1. Bump the [semantic version](http://semver.org/) in [package.json](https://github.com/mozilla-iot/gateway/blob/master/package.json)
 2. Push the bump to master
-3. Make an image with the new code updates
-4. Flash this image on a Pi, touch `/boot/ssh`, run the initial setup until you can ssh in
-5. In the pi's gateway directory run `./tools/generate-release.sh`, producing `gateway-<hash>.tar.gz`
-   and `node_modules-<hash>.tar.gz`
-6. `scp` back these archives onto the computer where you'll be clicking around and uploading the release
+3. Build the release using [rpi-image-builder](https://github.com/mozilla-iot/rpi-image-builder)
+4. Download the generated <prefix>-gateway.tar.gz file
+5. run `./tools/generate-release.sh -g <prefix>-gateway.tar.gz`
+6. You'll find the newly generated release files in the `ota` directory (can be modified using the -o option with generate-releases.sh)
 7. On github create a release using the version from step 1 as its tag name (e.g. 0.9.2)
 8. Attach the release archives to this release
 9. Publish the release when ready or save as a draft
@@ -32,6 +31,10 @@ Example testing release: https://github.com/hobinjk/gateway/releases/tag/0.9.2
 # Rolling Back
 1. Move the current gateway to `gateway_failed`
 2. Move the the old gateway to `gateway`
+
+# Testing an OTA release
+
+See https://github.com/mozilla-iot/wiki/wiki/Testing-prerelease-OTA-updates
 
 # Future Work
 - Allow omitting `node_modules` from releases
