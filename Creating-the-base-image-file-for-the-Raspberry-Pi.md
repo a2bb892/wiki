@@ -50,6 +50,13 @@ and supply a password of raspberry. Note: if you're doing this several times, yo
 
 # Run the preparation script
 
+Even though the `prepare-base.sh` script does an apt update & upgrade, I find that it's best to manually run:
+```
+sudo apt update
+sudo apt upgrade
+```
+prior to running prepare-base.sh.
+
 ```
 ./prepare-base.sh
 ```
