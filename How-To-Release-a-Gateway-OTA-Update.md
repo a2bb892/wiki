@@ -8,7 +8,7 @@
 8. Attach the release archives to this release
 9. Publish the release when ready or save as a draft
 
-Example testing release: https://github.com/hobinjk/gateway/releases/tag/0.9.2
+Example testing release: https://github.com/mrstegeman/gateway/releases/tag/0.10.0
 
 # What Comes Next
 1. Gateway's `cron` runs [tools/check-for-update.js](https://github.com/mozilla-iot/gateway/blob/master/tools/check-for-update.js)
