@@ -129,7 +129,7 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
   * [Switches &amp; Plugs](https://www.eufylife.com/collections/smart)
   * [Bulbs](https://www.eufylife.com/collections/led)
 * Foscam
-  * [Foscam R2](https://www.foscam.com/R2.html) IP camera
+  * [Foscam R2](https://www.foscam.com/R2.html) IP camera (supports ONVIF)
 * Google
   * [Chromecast](https://store.google.com/category/home_entertainment)
 * LG
