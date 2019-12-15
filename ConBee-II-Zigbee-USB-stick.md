@@ -1,6 +1,6 @@
-Product : [ConBee II Zigbee USB stick](https://phoscon.de/en/conbee2) 
+Product web site : [ConBee II Zigbee USB stick](https://phoscon.de/en/conbee2) 
 
-## COnfiguration 
+## Configuration 
 
 The regular Zigbee adapter supports the Conbee directly.
 
