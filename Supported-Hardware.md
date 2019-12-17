@@ -177,7 +177,7 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
 
 * Smart plugs
     * [iDevices Switch](https://store.idevicesinc.com/idevices-switch/)
-    * [Koogeek P1](https://www.koogeek.com/p-p1.html)
+    * [Koogeek P1](https://www.koogeek.com/p-p1.html) - Note that this is the US/EU version supported by "Homekit" Adapter
     * [Eve Energy](https://www.evehome.com/en/eve-energy)
 * Bridges
     * [Homebridge](https://github.com/nfarina/homebridge)
@@ -191,6 +191,11 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
     * [Fibaro Flood Sensor](https://www.fibaro.com/en/products/flood-sensor/)
 * Buttons
     * [Eve Button](https://www.evehome.com/en/eve-button)
+
+### Tasmota
+
+   * [Koogeek KLUP1 ](https://blakadder.github.io/templates/kogeek_KLUP1.html) The UK version after flashing with Tasmota supported by the Tasmota Adapter  
+
 
 ### Other
 
