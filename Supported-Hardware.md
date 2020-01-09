@@ -115,8 +115,9 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * [Neo Coolcam water sensor](https://www.szneo.com/en/products/show.php?id=191)
 * [Spetu water/natural gas valve switch](https://www.aliexpress.com/item/32902232784.html)
 * Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
-* [Yale YRD110 Deabbolt (ZWave)](https://www.amazon.com/Yale-Security-YRD110ZW0BP-Keyless-Deadbolt/dp/B00PM6TA9O/)
 * [Honeywell TH8320ZW1000 Thermostat](https://customer.honeywell.com/en-US/Pages/Product.aspx?cat=HonECC+Catalog&pid=TH8320ZW1000/U&category=Z-WaveTouchscreen&catpath=1.3.35.4.9)
+* [Yale YRD110 Deabbolt (ZWave)](https://www.amazon.com/Yale-Security-YRD110ZW0BP-Keyless-Deadbolt/dp/B00PM6TA9O/)
+* [ZLINK Plug-In Appliance Module ZL-PA-100](http://www.zlinkproducts.com/products/zlink-products-plug-in-appliance-module-zl-pa-100)
 
 ### Wi-Fi
 
