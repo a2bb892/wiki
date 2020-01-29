@@ -25,7 +25,7 @@ Boot the Raspberry Pi (with a keyboard and display plugged in) and login
 Add a configuration as below, replacing "my-ssid" and "my-network-key" with your WiFi credentials:
 
 ```
-network {
+network={
   ssid="my-ssid"
   psk="my-network-key"
 }
