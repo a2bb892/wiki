@@ -1,9 +1,9 @@
-# Download Raspbian Lite
+## Download Raspbian Lite
 ```
 curl -JLO https://downloads.raspberrypi.org/raspbian_lite_latest
 ```
 
-# Run the make-prep.sh script
+## Run the make-prep.sh script
 
 In the gateway repository, run the `make-prep.sh` script found in the `images` directory. The `--help` option will show all of the available options:
 ```
@@ -29,15 +29,15 @@ A typical invocation might look like:
 make-prep.sh --dd /dev/sdd 2019-09-26-raspbian-buster-lite.zip gateway-0.11.0-prep.img
 ```
 
-# Eject the SD card from the host
+## Eject the SD card from the host
 
 Make sure that you do a proper eject of the SD card and wait for unwritten data to be written. The root partition is EXT4 and just pulling the SD card will almost certainly corrupt it.
 
-# Plug your Raspberry Pi into a wired network and a serial console
+## Plug your Raspberry Pi into a wired network and a serial console
 
 The builds that we distribute have SSH disabled by default, so you'll need a serial console and a wired network connection. The `prepare-base.sh` script needs to be able to do `sudo apt update` and `sudo apt upgrade` in order to work properly.
 
-# Boot a Raspberry Pi using the SD card
+## Boot a Raspberry Pi using the SD card
 
 **IMPORTANT** If you want the final image to be used on Raspberry Pi earlier than a an RPi 3 then the base image will need to be built/booted on an earlier model of Raspberry Pi.
 
@@ -49,7 +49,7 @@ Once it's booted, you should be able to log in through the serial console or via
 
 **Note:** if you're doing this several times, you may get SSH errors about man-in-the-middle attacks because the RPi will often get the same IP address but will have a different host key.
 
-# Run the preparation script
+## Run the preparation script
 
 ```
 ./prepare-base.sh
@@ -57,14 +57,14 @@ Once it's booted, you should be able to log in through the serial console or via
 
 Go and get a coffee. If everything goes well, you should now have a usable base image, which the `add-gateway.sh` script can use (once you've finished the remaining steps on this page).
 
-# Shutdown
+## Shutdown
 
 Do a clean shutdown of the Raspberry Pi
 ```
 sudo poweroff
 ```
 
-# Remove the SD card and make a smaller image
+## Remove the SD card and make a smaller image
 
 Remove the SD card from the Pi and insert it into the host. The first time that the image was booted it will have resized the filesystem on the SD card to fill it. You can run the following `shrink.sh` script (found in the same directory as `make-prep.sh`).
 
@@ -74,7 +74,7 @@ shrink.sh /dev/sdd gateway-0.11.0-base.img
 
 You can also specify an optional filesystem size (in megabytes). If not provided, then it defaults to 3000 megabytes which is suitable for the headless image (i.e. buster-lite).
 
-# Copy the image to AWS
+## Copy the image to AWS
 
 Run `image-to-aws.sh` (found in the same directory as make-prep.sh):
 ```
