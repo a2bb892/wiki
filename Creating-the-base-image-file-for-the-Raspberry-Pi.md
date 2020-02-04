@@ -1,6 +1,6 @@
 # Prepare the Image
 
-The following steps should be done on a Linux build host.
+The following steps should be done on a Linux build host with an SD card plugged in.
 
 ## Download Raspbian Lite
 
