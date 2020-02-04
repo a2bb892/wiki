@@ -10,7 +10,7 @@ curl -JLO https://downloads.raspberrypi.org/raspbian_lite_latest
 
 ## Run the `make-prep.sh` script
 
-In the gateway repository, run the `make-prep.sh` script found in the `images` directory. The `--help` option will show all of the available options:
+In the gateway repository, run the `make-prep.sh` script found in the `image` directory. The `--help` option will show all of the available options:
 ```
 make-prep.sh [OPTION] raspbian-img-file prep-file
 
