@@ -1,6 +1,6 @@
 # Prepare the Image
 
-The following steps should be done on a Linux build host with an SD card plugged in.
+The following steps should be done on a Linux build host with an SD card plugged in. The build host also needs to have the `kpartx` program installed.
 
 ## Download Raspbian Lite
 
