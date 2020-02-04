@@ -22,7 +22,7 @@ where OPTION can be one of:
   --password PWD    Specify the password for wifi access
   --wifi-country CC Specify the WiFi country code to use (default: GB)
   --no-i2c          Disable I2C bus
-  --hostname NAME   Specify the hostname
+  --hostname NAME   Specify the hostname (default: gateway)
   --dd DEV          Issue a dd command to copy the image to an sdcard
   --summary         Print summary of changed files
   -h, --help        Print this help
