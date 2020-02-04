@@ -5,7 +5,7 @@ The following steps should be done on a Linux build host.
 ## Download Raspbian Lite
 
 ```
-curl -JLO https://downloads.raspberrypi.org/raspbian_lite_latest
+curl -L -o raspbian-lite.zip https://downloads.raspberrypi.org/raspbian_lite_latest
 ```
 
 ## Run the `make-prep.sh` script
@@ -31,7 +31,7 @@ where OPTION can be one of:
 ```
 A typical invocation might look like:
 ```
-make-prep.sh --dd /dev/sdd 2019-09-26-raspbian-buster-lite.zip gateway-0.11.0-prep.img
+make-prep.sh --dd /dev/sdd raspbian-lite.zip gateway-0.11.0-prep.img
 ```
 
 ## Eject the SD card
