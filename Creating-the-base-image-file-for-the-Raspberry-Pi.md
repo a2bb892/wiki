@@ -1,4 +1,9 @@
+# Prepare the Image
+
+The following steps should be done on a Linux build host.
+
 ## Download Raspbian Lite
+
 ```
 curl -JLO https://downloads.raspberrypi.org/raspbian_lite_latest
 ```
@@ -29,9 +34,13 @@ A typical invocation might look like:
 make-prep.sh --dd /dev/sdd 2019-09-26-raspbian-buster-lite.zip gateway-0.11.0-prep.img
 ```
 
-## Eject the SD card from the host
+## Eject the SD card
 
 Make sure that you do a proper eject of the SD card and wait for unwritten data to be written. The root partition is EXT4 and just pulling the SD card will almost certainly corrupt it.
+
+# Populate the Image
+
+The following steps are done on the Raspberry Pi, to install dependencies and such into the image.
 
 ## Plug your Raspberry Pi into a wired network and a serial console
 
@@ -63,6 +72,10 @@ Do a clean shutdown of the Raspberry Pi
 ```
 sudo poweroff
 ```
+
+# Finalize the Image
+
+The following steps are done on the initial Linux build host to finalize the base image.
 
 ## Remove the SD card and make a smaller image
 
