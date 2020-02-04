@@ -31,7 +31,7 @@ where OPTION can be one of:
 ```
 A typical invocation might look like:
 ```
-make-prep.sh --dd /dev/sdd raspbian-lite.zip gateway-0.11.0-prep.img
+./make-prep.sh --dd /dev/sdd raspbian-lite.zip gateway-0.11.0-prep.img
 ```
 
 ## Eject the SD card
@@ -82,19 +82,20 @@ The following steps are done on the initial Linux build host to finalize the bas
 Remove the SD card from the Pi and insert it into the host. The first time that the image was booted it will have resized the filesystem on the SD card to fill it. You can run the following `shrink.sh` script (found in the same directory as `make-prep.sh`).
 
 ```
-shrink.sh /dev/sdd gateway-0.11.0-base.img
+./shrink.sh /dev/sdd gateway-0.11.0-base.img
 ```
 
 You can also specify an optional filesystem size (in megabytes). If not provided, then it defaults to 3000 megabytes which is suitable for the headless image (i.e. buster-lite).
 
 ## Copy the image to AWS
 
-Run `image-to-aws.sh` (found in the same directory as make-prep.sh):
-```
-image-to-aws.sh gateway-0.11.0-base.img
-```
-
-See [this page](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) for instructions on installing the AWS command line tool. You can test that the `aws` command line tool is working properly by using the command:
+You'll need to install the AWS command line tool. See [this page](https://docs.aws.amazon.com/cli/latest/userguide/installing.html) for instructions on installation. You can test that the `aws` command line tool is working properly by using the command:
 ```
 aws s3 ls s3://mozillagatewayimages/base/
+```
+
+To copy the image to S3, run `image-to-aws.sh` (found in the same directory as `make-prep.sh`):
+
+```
+./image-to-aws.sh gateway-0.11.0-base.img
 ```
