@@ -1,4 +1,4 @@
-# Download and unpack Raspbian Lite
+# Download Raspbian Lite
 ```
 curl -JLO https://downloads.raspberrypi.org/raspbian_lite_latest
 ```
