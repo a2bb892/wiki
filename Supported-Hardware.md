@@ -40,8 +40,6 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 
 **Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
 
-***
-
 ## Devices
 
 ### Zigbee
