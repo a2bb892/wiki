@@ -23,9 +23,7 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
   * Rock960
   * Ultra96
 
-***
-
-## Adapters
+## USB Dongles
 
 ### Zigbee
 
