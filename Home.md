@@ -3,7 +3,6 @@
 * [[Glossary of Terms]]
 * [[Installing Node.js]]
 * [[Setting up Raspberry Pi]]
-* [[Setting up the Turris Omnia Router]]
 
 # WebThings Gateway
 
@@ -29,6 +28,7 @@
 ### OpenWrt (old)
 
 * [[OpenWrt]]
+* [[Setting up the Turris Omnia Router]]
 * [[Installing the gateway software on the Turris Omnia]]
 
 ## Testing
