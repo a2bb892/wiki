@@ -1,4 +1,4 @@
-# Installing NodeJS
+# Installing Node.js
 ## Download from nodejs.org
 
 You can download and install a binary from [nodejs.org](https://nodejs.org).
@@ -28,7 +28,7 @@ v8.11.1
 ```
 
 ## HomeBrew
-On Mac OS X you can install NodeJS using [HomeBrew](https://brew.sh/)
+On Mac OS X you can install Node.js using [HomeBrew](https://brew.sh/)
 
 ```
 $ brew install node
