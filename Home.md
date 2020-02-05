@@ -18,7 +18,6 @@
 
 ### Raspbian
 
-* [[Raspberry Pi Image]]
 * [[Creating the base image file for the Raspberry Pi]]
 * [Creating the final image](https://github.com/mozilla-iot/rpi-image-builder/blob/master/README.md)
 * [[How To Release a Gateway OTA Update]]
