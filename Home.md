@@ -21,6 +21,8 @@
 
 ### Z-Wave
 
+* [[Installing OpenZWave]]
+* [[Node for OpenZWave]]
 * [[Debugging OpenZWave]]
 
 ### Zigbee
