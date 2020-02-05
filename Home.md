@@ -11,7 +11,7 @@
 
 * [Add-on System Design](./Add-on-System-Design) - Add-on package design
 * [Adapter IPC](./Adapter-IPC) - Inter-process communications between an add-on and the gateway
-* [Add-on Configuration](./Add-on-Configuration) - How to create configurable dd-ons
+* [Add-on Configuration](./Add-on-Configuration) - How to create configurable add-ons
 
 # External Links and Resources
 
