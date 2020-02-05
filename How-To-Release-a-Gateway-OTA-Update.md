@@ -34,7 +34,7 @@ Example testing release: https://github.com/mrstegeman/gateway/releases/tag/0.10
 
 # Testing an OTA release
 
-See https://github.com/mozilla-iot/wiki/wiki/Testing-prerelease-OTA-updates
+See [[Testing prerelease OTA updates]].
 
 # Future Work
 - Allow omitting `node_modules` from releases
