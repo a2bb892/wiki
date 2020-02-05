@@ -24,6 +24,9 @@
 * [[Debugging OpenZWave]]
 * [[Debugging Zigbee]]
 * [[HOWTO: Factory reset a Cree Connected bulb]]
+* [[HOWTO: Factory reset a Hue bulb]]
+* [[HOWTO: Factory reset a Hue Wireless Dimmer]]
+* [[HOWTO: Factory reset an IKEA bulb]]
 
 # External Links and Resources
 
