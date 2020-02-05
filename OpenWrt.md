@@ -1,6 +1,6 @@
-# Building the OpenWRT image with the gateway
+# Building the OpenWrt image with the gateway
 
-To build an OpenWRT image for the Raspberry Pi, follow the directions on [this page](https://github.com/openwrt/packages-abandoned/tree/master/lang/node-mozilla-iot-gateway).
+To build an OpenWrt image for the Raspberry Pi, follow the directions on [this page](https://github.com/openwrt/packages-abandoned/tree/master/lang/node-mozilla-iot-gateway).
 
 NOTE: when you run menuconfig, ensure that the node-mozilla-iot-gateway has a star beside it to include the gateway in the image being built. Use the M if installing to run from an USB stick.
 
@@ -13,7 +13,7 @@ Edit the file feeds/packages/lang/node-mozilla-iot-gateway/Makefile and change f
 
 Rerun `make`
 
-# Miscellaneous notes about using OpenWRT
+# Miscellaneous notes about using OpenWrt
 
 These are some common things that I needed to do to use the gateway on my network.
 
@@ -45,7 +45,7 @@ These are some common things that I needed to do to use the gateway on my networ
 
 ## Opening ports on the firwall
 
-By default, OpenWRT doesn't allow access from the WAN side, but when debugging things and your OpenWRT router's WAN is on your local LAN, then it's useful to open some ports. The following script will do that:
+By default, OpenWrt doesn't allow access from the WAN side, but when debugging things and your OpenWrt router's WAN is on your local LAN, then it's useful to open some ports. The following script will do that:
 ```
 #!/bin/sh
 
