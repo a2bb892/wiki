@@ -13,6 +13,8 @@
 * [Adapter IPC](./Adapter-IPC) - Inter-process communications between an add-on and the gateway
 * [Add-on Configuration](./Add-on-Configuration) - How to create configurable add-ons
 * [Command Line Tool](./Command-Line-Tool) - Useful for debugging
+* [[Debugging OpenZWave]]
+* [[Debugging Zigbee]]
 
 # External Links and Resources
 
