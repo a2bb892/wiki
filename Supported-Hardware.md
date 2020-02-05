@@ -109,15 +109,13 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * [Neo Coolcam motion sensor 2 - Motion, temperature and lux, ](https://szneo.com/en/products/show.php?id=190)
 * [Neo Coolcam water sensor](https://www.szneo.com/en/products/show.php?id=191)
 * [Spetu water/natural gas valve switch](https://www.aliexpress.com/item/32902232784.html)
-* Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 * [Honeywell TH8320ZW1000 Thermostat](https://customer.honeywell.com/en-US/Pages/Product.aspx?cat=HonECC+Catalog&pid=TH8320ZW1000/U&category=Z-WaveTouchscreen&catpath=1.3.35.4.9)
 * [Yale YRD110 Deabbolt (ZWave)](https://www.amazon.com/Yale-Security-YRD110ZW0BP-Keyless-Deadbolt/dp/B00PM6TA9O/)
 * [ZLINK Plug-In Appliance Module ZL-PA-100](http://www.zlinkproducts.com/products/zlink-products-plug-in-appliance-module-zl-pa-100)
+* Many other Z-wave smart plugs, sensors, switches and bulbs should also work. Please add devices you have tested to this wiki page.
 
 ### Wi-Fi
 
-* Broadlink
-  * [IR devices](http://www.ibroadlink.com/)
 * Etekcity
   * [Smart Plugs](https://www.etekcity.com/productcate/59/list)
   * [Switches](https://www.etekcity.com/productcate/121/list)
@@ -163,11 +161,11 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 ### Bluetooth
 
 * [Flic Buttons](https://flic.io/)
-* See 'HomeKit' and 'Other' below
+* See [HomeKit](#homekit) and [Other](#other) below
 
 ### HomeKit
 
-Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
+Most Wi-Fi and BLE devices should work. Below is a list of _tested_ devices.
 
 **Note**: Devices typically need to be unpaired from iOS (or their Android app) before using them with the gateway.
 
@@ -190,8 +188,7 @@ Most WiFi and BLE devices should work. Below is a list of _tested_ devices.
 
 ### Tasmota
 
-   * [Koogeek KLUP1 ](https://blakadder.github.io/templates/kogeek_KLUP1.html) The UK version after flashing with Tasmota supported by the Tasmota Adapter  
-
+* [Koogeek KLUP1](https://blakadder.github.io/templates/kogeek_KLUP1.html) The UK version after flashing with Tasmota supported by the Tasmota Adapter  
 
 ### Other
 
