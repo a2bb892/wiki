@@ -2,9 +2,9 @@
 # WebThings Gateway
 
 * [[Glossary of Terms]]
-* [Gateway Architecture](./Gateway-Architecture) - The basic architecture of the system to help devs get started
-* [Supported Hardware](./Supported-Hardware) - A list of supported gateway hardware, adapters and devices
-* [Logging into the Raspberry Pi](./Logging-into-the-Raspberry-Pi) - How to access the command line
+* [[Gateway Architecture]] - The basic architecture of the system to help devs get started
+* [[Supported Hardware]] - A list of supported gateway hardware, adapters and devices
+* [[Logging into the Raspberry Pi]] - How to access the command line
 * [Gateway Remote Access](https://github.com/mozilla-iot/registration_server/blob/master/doc/flow.md) - How secure remote access works
 * [Configuring GPIO](./Configuring-GPIO-for-use-with-the-gpio-adapter) - How to configure General Purpose Input/Output Ports on Raspberry Pi
 * [curl examples](https://github.com/mozilla-iot/curl-examples/) - A repository containing some example scripts which can login, get a list of things, and get or set properties.
@@ -14,10 +14,10 @@
 
 ### General
 
-* [Add-on System Design](./Add-on-System-Design) - Add-on package design
-* [Adapter IPC](./Adapter-IPC) - Inter-process communications between an add-on and the gateway
-* [Add-on Configuration](./Add-on-Configuration) - How to create configurable add-ons
-* [Command Line Tool](./Command-Line-Tool) - Useful for debugging
+* [[Add-on System Design]] - Add-on package design
+* [[Adapter IPC]] - Inter-process communications between an add-on and the gateway
+* [[Add-on Configuration]] - How to create configurable add-ons
+* [[Command Line Tool]] - Useful for debugging
 
 ### Z-Wave
 
@@ -31,6 +31,7 @@
 * [[HOWTO: Factory reset a Hue bulb]]
 * [[HOWTO: Factory reset a Hue Wireless Dimmer]]
 * [[HOWTO: Factory reset an IKEA bulb]]
+* [[Pairing SmartThings sensors]]
 
 # External Links and Resources
 
