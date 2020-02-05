@@ -46,12 +46,18 @@
 
 ### General
 
-* [[Add-on System Design]] - Add-on package design
-* [[Adapter IPC]] - Inter-process communications between an add-on and the gateway
+* [Add-on Guidelines](https://github.com/mozilla-iot/addon-list/blob/master/guidelines.md)
+* Examples:
+    * [Adapter](https://github.com/mozilla-iot/example-adapter)
+    * [Notifier](https://github.com/mozilla-iot/example-notifier)
+    * [Extension](https://github.com/mozilla-iot/example-extension)
 * Add-on APIs:
     * [Node.js](https://github.com/mozilla-iot/gateway-addon-node)
     * [Python](https://github.com/mozilla-iot/gateway-addon-python)
-* [[Add-on Configuration]] - How to create configurable add-ons
+* [[Add-on Configuration]]
+* [Add-on Packaging](https://github.com/mozilla-iot/addon-list/blob/master/manifest.md)
+* [Add-on Publishing](https://github.com/mozilla-iot/addon-list#readme)
+* [[Adapter IPC]] - Inter-process communications between an add-on and the gateway
 * [[Command Line Tool]] - Useful for debugging
 * [[Using the debug controller]]
 
