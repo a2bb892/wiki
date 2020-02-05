@@ -1,15 +1,14 @@
 The documentation below is focused on Node.js adapters, but other languages are supported as well.
-The add-on can publish configuration page on the Gateway url `/settings/addons/config/youraddon`, provided that it provides a JSON-schema in manifest.
+The add-on can publish a configuration page on the gateway URL `/settings/addons/config/youraddon`, provided that it provides a JSON-schema in its manifest.
 
 ## Basic configuration
-If the add-on provides configurable values, `package.json` should have a field `schema` in additional field `moziot`.
 
-Example1: JSON-schema for simple configuration.
-```js
+If the add-on provides configurable values, `manifest.json` should have an `options` field.
+
+**Example 1:** JSON-schema for simple configuration.
+```json
 {
-...
-  "moziot": {
-...
+  "options": {
     "schema": {
       "type": "object",
       "properties": {
@@ -20,35 +19,41 @@ Example1: JSON-schema for simple configuration.
           "type": "string"
         }
       }
-    },
-...
+    }
+  }
 }
 ```
 
-Configuration page for Example1.
+Configuration page for Example 1:
 
 ![image](https://user-images.githubusercontent.com/20137651/39053305-a98f91cc-44e9-11e8-946e-ef292a6b5c02.png)
 
-When the apply button is pushed, the add-on is reloaded and is passed values which user input.
+When the _Apply_ button is pushed, the add-on is reloaded and can retrieve the user input with the `Database` class.
 
 ```js
-loadMyAdapter(addonManagerInstance, manifestObject, errorCallback){
-  manifestObject.moziot.config // the config contains values which user input.
+const {Database} = require('gateway-addon');
+const manifest = require('./manifest.json');
+
+loadMyAdapter(addonManager, _, errorCallback) {
+  const db = new Database(manifest.id);
+  db.open().then(() => {
+    return db.loadConfig();
+  }).then((config) => {
+    // config contains values which user input.
+  }).catch(console.error);
 }
 ```
 
 ## Configuration with default values
 
-If the add-on should have default values which are configurable in order to work without configuration, `package.json` should have a field `config` in additional field `moziot`.
+If the add-on should have default values which are configurable in order to work without configuration, `manifest.json` should have a `default` field inside `options`.
 
-Example2: JSON-schema and default values for simple configuration.
+**Example 2:** JSON-schema and default values for simple configuration.
 
-```js
+```json
 {
-...
-  "moziot": {
-...
-    "config": {
+  "options": {
+    "default": {
       "foo": "default value foo",
       "bar": "default value bar"
     },
@@ -62,26 +67,24 @@ Example2: JSON-schema and default values for simple configuration.
           "type": "string"
         }
       }
-    },
-...
+    }
+  }
 }
 ```
 
-Configuration page for Example2.
+Configuration page for Example 2:
 
 ![image](https://user-images.githubusercontent.com/20137651/39053906-30f26a9e-44eb-11e8-9b7a-7ea3a2a448f8.png)
 
 ## Configuration with description
 
-The add-on can provide descriptions about configurable value, provided that field `schema` should have fields `description`.
+The add-on can also provide descriptions about configurable values.
 
-Example3: JSON-schema for configuration with description.
+**Example 3:** JSON-schema for configuration with description.
 
-```js
+```json
 {
-...
-  "moziot": {
-...
+  "options": {
     "schema": {
       "type": "object",
       "description": "this is description",
@@ -95,56 +98,52 @@ Example3: JSON-schema for configuration with description.
           "description": "this is description for bar"
         }
       }
-    },
-...
+    }
+  }
 }
 ```
 
-Configuration page for Example3.
+Configuration page for Example 3:
 
 ![image](https://user-images.githubusercontent.com/20137651/39055236-a0db39e6-44ee-11e8-9253-b16ac4f5e586.png)
 
 ## Configuration which have variable length values
 
-If the add-on provides configurable values which is variable length, JSON-schema should have array field.
+If the add-on provides configurable values which are variable length, JSON-schema should have array field.
 
-Example4: JSON-schema for configuration which have variable length values.
+**Example 4:** JSON-schema for configuration which have variable length values.
 
-```js
+```json
 {
-...
-  "moziot": {
-...
+  "options": {
     "schema": {
       "type": "array",
       "title": "addable field",
       "items": {
         "type": "string"
       }
-    },
-...
+    }
+  }
 }
 ```
 
-Configuration page for Example4.
+Configuration page for Example 4:
 
 ![image](https://user-images.githubusercontent.com/20137651/39057162-8d75f5c6-44f3-11e8-9544-e85317698c29.png)
 
-`+` button clicked.
+`+` button clicked:
 
 ![image](https://user-images.githubusercontent.com/20137651/39057937-7c1a1e9a-44f5-11e8-9f5e-31523815ff11.png)
 
-## Configuration which have dynamic form.
+## Configuration with dynamic form.
 
-If the add-on provides dynamic form which is related with some configurable values, JSON-schema should have `oneOf` field and `dependencies` field.
+If the add-on provides a dynamic form which is related with some configurable values, JSON-schema should have `oneOf` field and `dependencies` field.
 
-Example5: JSON-schema for configuration which have dynamic form.
+**Example 5:** JSON-schema for configuration with dynamic form.
 
-```js
+```json
 {
-...
-  "moziot": {
-...
+  "options": {
     "schema": {
       "title": "Device",
       "type": "object",
@@ -207,41 +206,39 @@ Example5: JSON-schema for configuration which have dynamic form.
           ]
         }
       }
-    },
-...
+    }
+  }
 }
 ```
 
-Configuration page for Example5.
+Configuration page for Example 5:
 
 ![image](https://user-images.githubusercontent.com/20137651/39060778-436b02d2-44fd-11e8-9c90-bd70f241911a.png)
 
-Change `deviceType` to `dimmingLight`.
+Change `deviceType` to `dimmingLight`:
 
 ![image](https://user-images.githubusercontent.com/20137651/39060853-70004ac8-44fd-11e8-9eff-700e6d6e0d29.png)
 
-Change `deviceType` to `colorLight`.
+Change `deviceType` to `colorLight`:
 
 ![image](https://user-images.githubusercontent.com/20137651/39060889-8d84599a-44fd-11e8-9234-1e225392a0b3.png)
 
 ## Other use cases
 
-If need more information about generating configuration by JSON-schema. See [here](https://github.com/mozilla-services/react-jsonschema-form).
-The Gateway has jsonschema-form which is ported without `uiSchema` and `customForm`.
+If you need more information about generating configuration with JSON-schema, see [here](https://github.com/mozilla-services/react-jsonschema-form).
+The gateway has jsonschema-form which is ported without `uiSchema` and `customForm`.
 
-### Provide device specific information to user.
+### Provide device-specific information to user.
 
 The use case is based on [this question](https://discourse.mozilla.org/t/add-on-specific-html-pages-to-configure-things-default-settings/27816/3).
 
-If the add-on provides some device specific information in order to help an user inputting configuration value,"e.g. How many devices should be configured?", the add-on can set information to config.
+If the add-on provides some device-specific information in order to help a user input configuration values,"e.g. How many devices should be configured?", the add-on can add information to the config.
 
-Example6: JSON-schema for helping an user inputting.
+**Example 6:** JSON-schema for helping a user input values
 
-```js
+```json
 {
-...
-  "moziot": {
-...
+  "options": {
     "schema": {
       "type": "object",
       "properties": {
@@ -279,12 +276,12 @@ Example6: JSON-schema for helping an user inputting.
           }
         }
       }
-    },
-...
+    }
+  }
 }
 ```
 
-The add-on codes for helping an user inputting.
+The add-on code for helping a user input values:
 
 ```js
 const {Adapter, Database} = require('gateway-addon');
@@ -311,7 +308,7 @@ class SettingsTestAdapter extends Adapter {
 }
 ```
 
-Configuration page for Example6.
+Configuration page for Example 6:
 
 First step, the user input WiFi configuration for connecting an router and devices.
 
@@ -319,6 +316,4 @@ First step, the user input WiFi configuration for connecting an router and devic
 
 Second step, the user input the device configuration for using the device.
 
-
 ![image](https://user-images.githubusercontent.com/20137651/39064028-e809fac8-4507-11e8-9c8c-108888b6e985.png)
-
