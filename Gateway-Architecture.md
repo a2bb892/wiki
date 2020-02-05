@@ -8,11 +8,7 @@ The system has 2 main parts: the back-end server side, and the front-end client 
 
 Architecture Diagram 1:
 
-![Mozilla WebThings Gateway Architecture](https://github.com/mozilla-iot/wiki/blob/master/wiki/images/wot_gw.png)
-
-*Proper image link is currently not working. As interim, you can see it here:*  
-![Mozilla WebThings Gateway Architecture](https://raw.githubusercontent.com/mozilla-iot/wiki/c104bfe39323e975fd9c6a79dcc84ca34d83b576/images/wot_gw.png) 
-
+![Mozilla WebThings Gateway Architecture](https://raw.githubusercontent.com/mozilla-iot/wiki/c104bfe39323e975fd9c6a79dcc84ca34d83b576/images/wot_gw.png)
 
 ### Server Side Components
 
