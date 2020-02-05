@@ -38,7 +38,7 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 * [Zooz S2 USB Stick](http://www.getzooz.com/zooz-zst10-s2-stick.html)
 * Any [OpenZWave compatible dongle](https://github.com/OpenZWave/open-zwave/wiki/Controller-Compatibility-List) should work, but have not all been tested
 
-**Note:** Additional adapters can be supported via add-ons, which are being added to all the time.
+**Note:** Additional adapters can be supported via add-ons, which are being added all the time.
 
 ## Devices
 
@@ -80,9 +80,9 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 
 * Many other Zigbee smart plugs, sensors, switches and bulbs using the Home Automation profile should also work. Please add devices you have tested to this wiki page.
 
-The following Xiaomi devices have been seen working, but most of battery powered the Xiaomi devices do not follow
+The following Xiaomi devices have been seen working, but most of the battery powered Xiaomi devices do not follow
 the Zigbee spec, and may or may not work reliably. Some devices will work for a while after paired, but then stop
-working. This may depend on the other "router" devices found on the Zigbee network. Apparently Xiaomi is addressing this and some newer devices are Zigbee 3.0 compliant. See: https://community.smartthings.com/t/original-aqara-xiaomi-zigbee-sensors-contact-temp-motion-button-outlet-leak-etc/113253/1103
+working. This may depend on the other "router" devices found on the Zigbee network. Apparently, Xiaomi is addressing this and some newer devices are Zigbee 3.0 compliant. See: https://community.smartthings.com/t/original-aqara-xiaomi-zigbee-sensors-contact-temp-motion-button-outlet-leak-etc/113253/1103
 
 * [Xiaomi Aqara WSDCGQ11LM temperature/pressure/humidity](https://www.aqara.com/en/temperature_and_humidity_sensor-product.html) (square) (lumi.weather)
 * Xiaomi MCCGQ01LM door and window sensor (lumi.sensor_magnet)
