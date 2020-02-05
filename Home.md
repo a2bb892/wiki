@@ -3,7 +3,7 @@
 * [Gateway Architecture](./Gateway-Architecture) - The basic architecture of the system to help devs get started
 * [Supported Hardware](./Supported-Hardware) - A list of supported gateway hardware, adapters and devices
 * [Logging into the Raspberry Pi](./Logging-into-the-Raspberry-Pi) - How to access the command line
-* [Gateway Remote Access](./Gateway-Remote-Access) - How secure remote access works
+* [Gateway Remote Access](https://github.com/mozilla-iot/registration_server/blob/master/doc/flow.md) - How secure remote access works
 * [Configuring GPIO](./Configuring-GPIO-for-use-with-the-gpio-adapter) - How to configure General Purpose Input/Output Ports on Raspberry Pi
 * [curl examples](https://github.com/mozilla-iot/curl-examples/) - A repository containing some example scripts which can login, get a list of things, and get or set properties.
 
