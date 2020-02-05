@@ -1,7 +1,12 @@
+# General
+
+* [[Glossary of Terms]]
+* [[Installing Node.js]]
+* [[Setting up Raspberry Pi]]
+* [[Setting up the Turris Omnia Router]]
 
 # WebThings Gateway
 
-* [[Glossary of Terms]]
 * [[Gateway Architecture]] - The basic architecture of the system to help devs get started
 * [[Supported Hardware]] - A list of supported gateway hardware, adapters and devices
 * [[Logging into the Raspberry Pi]] - How to access the command line
@@ -9,6 +14,28 @@
 * [Configuring GPIO](./Configuring-GPIO-for-use-with-the-gpio-adapter) - How to configure General Purpose Input/Output Ports on Raspberry Pi
 * [curl examples](https://github.com/mozilla-iot/curl-examples/) - A repository containing some example scripts which can login, get a list of things, and get or set properties.
 * [[Fluent: Making a new translation]]
+
+## Build and Release
+
+### Raspbian
+
+* [[Raspberry Pi Image]]
+* [[Creating the base image file for the Raspberry Pi]]
+* [[Creating a Raspberry Pi image using GitHub Actions]]
+* [[How To Release a Gateway OTA Update]]
+* [[Testing prerelease OTA updates]]
+* [[Loop mounting a Raspberry Pi image file under Linux]]
+
+### OpenWrt (old)
+
+* [[OpenWrt]]
+* [[Installing the gateway software on the Turris Omnia]]
+
+## Testing
+
+* [[Running OAuth Locally]]
+* [[HOWTO: Use the staging server for testing]]
+* [[Test Gateway Instance]]
 
 ## Add-ons
 
@@ -18,6 +45,7 @@
 * [[Adapter IPC]] - Inter-process communications between an add-on and the gateway
 * [[Add-on Configuration]] - How to create configurable add-ons
 * [[Command Line Tool]] - Useful for debugging
+* [[Using the debug controller]]
 
 ### Z-Wave
 
@@ -29,6 +57,7 @@
 
 * [[Debugging Zigbee]]
 * [[Recording Frames sent by XCTU (Zigbee)]]
+* [[Zigbee Attributes]]
 * [[HOWTO: Factory reset a Cree Connected bulb]]
 * [[HOWTO: Factory reset a Hue bulb]]
 * [[HOWTO: Factory reset a Hue Wireless Dimmer]]
