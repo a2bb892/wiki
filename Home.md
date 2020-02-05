@@ -11,7 +11,7 @@
 
 * [Add-on System Design](./Add-On-System-Design) - Add-on package design
 * [Adapter IPC](./Adapter-IPC) - Inter-process communications between an add-on and the gateway
-* [Add On Configuration](./Add-On-Configuration) - How to provide configurable Add-on.
+* [Add-On Configuration](./Add-On-Configuration) - How to create configurable dd-ons
 
 # External Links and Resources
 
@@ -21,4 +21,4 @@
 
 # Environment Setup
 
-* [Setup of Eslint in Pycharm](./Pycharm-Setup) - Get Pycharm to use the proper linting tool for the Mozilla IoT Gateway
+* [Setup of eslint in PyCharm](./PyCharm-Setup) - Get PyCharm to use the proper linting tool for the WebThings Gateway
