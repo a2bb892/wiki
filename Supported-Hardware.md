@@ -1,4 +1,6 @@
-With Project Things, Mozilla aims to create interoperability and user choice on the Internet of Things. Mozilla does not endorse any particular smart home product or brand, but here are the devices and protocols which have been tested  so far with the [WebThings Gateway](https://iot.mozilla.org/gateway).
+With WebThings, Mozilla aims to create interoperability and user choice on the Internet of Things. Mozilla does not endorse any particular smart home product or brand, but here are the devices and protocols which have been tested so far with the [WebThings Gateway](https://iot.mozilla.org/gateway).
+
+**Note:** This list is far from complete. There are many more devices which are compatible which have not been added to this list by developers or users.
 
 ## Gateway
 
