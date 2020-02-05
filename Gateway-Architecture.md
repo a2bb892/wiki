@@ -1,4 +1,4 @@
-Before we jump into the Mozilla Web of Things Gateway (GW), let’s get a clear overview of the architecture. This way, we can show how the different parts of GW fit into the big picture.
+Before we jump into the Mozilla WebThings Gateway (GW), let’s get a clear overview of the architecture. This way, we can show how the different parts of GW fit into the big picture.
 
 This section is a work in progress so may change often. You can also get involved and learn more on the [Mozilla Discourse portal](https://discourse.mozilla.org/c/iot).
 
