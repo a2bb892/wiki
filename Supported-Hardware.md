@@ -28,8 +28,8 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 ### Zigbee
 
 * Digi XStick2 (XU-Z11) - [link1](https://www.mouser.com/ProductDetail/XU-Z11?R=0virtualkey0virtualkeyXU-Z11), [link2](https://www.digikey.com/product-detail/en/digi-international/XU-Z11/602-1144-ND/2199598)
-* [ConBee Zigbee USB stick](https://phoscon.de/conbee)
-* [[ConBee II Zigbee USB stick]]
+* [ConBee Zigbee USB stick](https://phoscon.de/en/conbee)
+* [ConBee II Zigbee USB stick](https://phoscon.de/en/conbee2)
 
 ### Z-Wave
 
