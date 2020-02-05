@@ -6,6 +6,10 @@
 
 # WebThings Gateway
 
+* [REST & WebSocket API](https://iot.mozilla.org/wot/)
+* [Schemas](https://iot.mozilla.org/schemas/) - used in thing descriptions provided by API
+* [Getting Started Guide](https://iot.mozilla.org/docs/gateway-getting-started-guide.html)
+* [User Guide](https://iot.mozilla.org/docs/gateway-user-guide.html)
 * [[Gateway Architecture]] - The basic architecture of the system to help devs get started
 * [[Supported Hardware]] - A list of supported gateway hardware, adapters and devices
 * [[Logging into the Raspberry Pi]] - How to access the command line
@@ -15,6 +19,8 @@
 * [[Fluent: Making a new translation]]
 
 ## Build and Release
+
+* [Manually build the gateway](https://github.com/mozilla-iot/gateway#readme)
 
 ### Raspbian
 
