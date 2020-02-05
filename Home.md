@@ -20,7 +20,7 @@
 
 * [[Raspberry Pi Image]]
 * [[Creating the base image file for the Raspberry Pi]]
-* [[Creating a Raspberry Pi image using GitHub Actions]]
+* [Creating the final image](https://github.com/mozilla-iot/rpi-image-builder/blob/master/README.md)
 * [[How To Release a Gateway OTA Update]]
 * [[Testing prerelease OTA updates]]
 * [[Loop mounting a Raspberry Pi image file under Linux]]
