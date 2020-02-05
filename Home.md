@@ -1,5 +1,7 @@
+
 # WebThings Gateway
 
+* [[Glossary of Terms]]
 * [Gateway Architecture](./Gateway-Architecture) - The basic architecture of the system to help devs get started
 * [Supported Hardware](./Supported-Hardware) - A list of supported gateway hardware, adapters and devices
 * [Logging into the Raspberry Pi](./Logging-into-the-Raspberry-Pi) - How to access the command line
