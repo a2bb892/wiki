@@ -15,10 +15,6 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 * [Raspberry Pi 4 Model B](https://www.raspberrypi.org/products/raspberry-pi-4-model-b/)
 * [Raspberry Pi Zero W](https://www.raspberrypi.org/products/raspberry-pi-zero-w/)
 
-### OpenWrt
-
-* [Experimental OpenWrt package](https://github.com/openwrt/packages/tree/master/lang/node-mozilla-iot-gateway) (while not yet optimized for commercial use, we recommend Turris Omnia, Linksys WRT3200ACM, Espressobin, Raspberry Pi 3, or similar powerful processors and platforms with plenty of RAM and flash) 
-
 ### Debian
 
 * Experimental [Linaro](https://www.linaro.org/) support for some [96boards](https://www.96boards.org/products/) hardware
