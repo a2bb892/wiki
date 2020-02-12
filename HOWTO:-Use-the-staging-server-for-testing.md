@@ -5,4 +5,4 @@ To use the server, modify the following:
   * `registration_endpoint: 'https://api.mozilla-iot-staging.org:8443',`
   * `domain: 'mozilla-iot-staging.org',`
   * `certemail: 'certificate@mozilla-iot-staging.org',`
-* `src/controllers/settings_controller.js`: Search for `productionServerUrl` and replace it with `stagingServerUrl`
+* `src/certificate-manager.js`: Search for `production` and replace it with `staging`
