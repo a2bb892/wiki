@@ -61,6 +61,7 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 * OSRAM Lightify Tunable White Bulb (73674)
 * [OSRAM Outdoor Flex Multicolor](https://smartplus.ledvance.com/products/outdoor-lighting/index.jsp)
 * [Philips Hue Bulbs](https://www.philips.co.uk/c-m-li/hue) (requires a remote to factory reset)
+* [Sengled Zigbee Bulbs](https://us.sengled.com/products/sengled-smart-led-soft-white-a19-bulb)
 * [SmartThings Power Outlet](http://www.samsung.com/uk/smartthings/sensors-plug-f-app-uk-v2/) (UK & US)
 * [SmartThings Multipurpose Sensor](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor)
 * [SmartThings Multipurpose Sensor (2016)](https://www.smartthings.com/gb/products/smartthings-multipurpose-sensor-2016)
