@@ -51,6 +51,7 @@ With WebThings, Mozilla aims to create interoperability and user choice on the I
 * [GE ZB3101 - Dimmer Lamp Module](https://byjasco.com/products/ge-zigbee-plug-smart-dimmer)
 * [IKEA TRÅDFRI Bulbs](https://www.ikea.com/gb/en/products/lighting/smart-lighting/wireless-led-bulbs/)
 * [IKEA TRÅDFRI Wireless Control Outlet](https://www.ikea.com/us/en/catalog/products/30356169/)
+* [IKEA TRÅDFRI Dimmer button](https://www.ikea.com/nl/en/p/tradfri-wireless-dimmer-white-70408595/)
 * [INNR Smart Bulb Colour - RB 285 C](https://shop.innrlighting.com/en/shop/143/smart-bulb-colour-e27-z3.0)
 * [INNR Smart Bulb Comfort - RB 278 T](https://shop.innrlighting.com/en/shop/142/smart-bulb-comfort-e27-z3.0-2-pack)
 * [INNR Smart filament Bulb white - RF 265](https://shop.innrlighting.com/en/shop/203/smart-filament-bulb-white-e27)
