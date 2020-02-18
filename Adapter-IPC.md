@@ -80,12 +80,12 @@ Reply sent from the gateway back to the add-on.
 }
 ```
 
-## Resources
+# Resources
 
 * All other messages, as well as the plugin registration messages above, are defined in the [mozilla-iot/gateway-addon-ipc-schema](https://github.com/mozilla-iot/gateway-addon-ipc-schema) repo.
 * The Node.js bindings, used by both the gateway itself and Javascript add-ons, can be found in the [mozilla-iot/gateway-addon-node](https://github.com/mozilla-iot/gateway-addon-node) repo.
 * Python bindings can be found in the [mozilla-iot/gateway-addon-python](https://github.com/mozilla-iot/gateway-addon-python) repo.
 
-## Further Thoughts
+# Further Thoughts
 
 Given that the IPC layer is based on WebSockets, it should be fairly straightforward to implement add-ons in essentially any language. The easiest way to start would be to take a look at the IPC and AddonManagerProxy implementations in either of the two existing binding libraries and go from there.
