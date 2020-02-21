@@ -24,6 +24,27 @@
 
 ### Raspbian
 
+#### The new way
+
+This is the process as of 0.12. Run the following inside a cloned gateway repo.
+
+```sh
+cd <gateway>/image
+./build.sh
+```
+
+Wait for quite a while. After the process completes, you'll be left with the 4 files required for a release:
+* `gateway-<version>.img.zip` - the Raspbian image
+* `gateway-<version>.img.zip.sha256sum` - sha256sum of the Raspbian image
+* `gateway-<checksum>.tar.gz` - gateway tarball used for OTA updates
+* `node_modules-<checksum>.tar.gz` - node_modules tarball used for OTA updates
+
+To test the Raspbian image, just flash it to an SD card as you normally would. To test the OTA update, you'll need to upload the relevant files to a GitHub release and then follow [these instructions](./Testing-prerelease-OTA-updates).
+
+#### The old way
+
+The files required for this method don't exist past 0.11, but the instructions should be kept around just in case we need to switch back. It's a non-trivial process.
+
 * [[Creating the base image file for the Raspberry Pi]]
 * [Creating the final image](https://github.com/mozilla-iot/rpi-image-builder/blob/master/README.md)
 * [[How To Release a Gateway OTA Update]]
