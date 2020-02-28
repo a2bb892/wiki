@@ -52,7 +52,7 @@ Add-ons have been written in Node.js and Python so far, and official JavaScript 
 
 * Your add-on is [properly packaged](https://github.com/mozilla-iot/addon-list/blob/master/manifest.md).
 * Your add-on package bundles all required dependencies that do not already exist on the gateway platform.
-* If your package contains any compiled binaries, they must be compiled for all target architectures. If your addon is only for the Raspberry Pi you should compile it for armv6l. All Raspberry Pi families are compatible with this architecture. The easiest way to do this would be to build your package on a Raspberry Pi 1/2/Zero, or to open a pull request to have it added to our [addon-builder](https://github.com/mozilla-iot/addon-builder).
+* If your package contains any binaries, they must be compiled for all target architectures. Officially supported are x64, arm and arm64. If your addon is only for the Raspberry Pi you should compile it for armv6l. All Raspberry Pi families are compatible with this architecture. The easiest way to do this would be to build your package on a Raspberry Pi 1/2/Zero, or to open a pull request to have it added to our [addon-builder](https://github.com/mozilla-iot/addon-builder).
 
 ## Implementation: The Nitty Gritty
 
