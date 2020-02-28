@@ -4,7 +4,7 @@ This guide will help you create an add-on for the WebThings Gateway.
 
 ### Add-on
 
-An add-on is a collection of code that the gateway runs to gain a new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of devices: adapter, notifier, and extension.
+An add-on is a collection of code that the gateway runs to gain new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of devices: adapter, notifier, and extension.
 
 ### Adapter Add-on
 
