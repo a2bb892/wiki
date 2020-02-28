@@ -4,7 +4,7 @@ This guide will help you create an add-on for the WebThings Gateway.
 
 ### Add-on
 
-An add-on is a collection of code that the gateway runs to gain new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of addons: adapter, notifier, and extension.
+An add-on is a collection of code that the gateway runs to gain new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of add-ons: adapter, notifier, and extension.
 
 ### Adapter Add-on
 
@@ -52,7 +52,7 @@ Add-ons have been written in Node.js and Python so far, and official JavaScript 
 
 * Your add-on is [properly packaged](https://github.com/mozilla-iot/addon-list/blob/master/manifest.md).
 * Your add-on package bundles all required dependencies that do not already exist on the gateway platform.
-* If your package contains any binaries, they must be compiled for all target architectures and target operating systems. Officially supported are x64 for OSX and x64, arm and arm64 for linux. If your addon is only for the Raspberry Pi you should compile it for armv6l. All Raspberry Pi families are compatible with this architecture. The easiest way to do this would be to build your package on a Raspberry Pi 1/2/Zero, or to open an issue to have it added to our [addon-builder](https://github.com/mozilla-iot/addon-builder).
+* If your package contains any binaries, they must be compiled for all target architectures and target operating systems that you wish to support. Officially supported are x64 for macOS and x64, arm and arm64 for Linux. If your add-on is only for the Raspberry Pi, you should compile it for armv6l. All Raspberry Pi families are compatible with this architecture. The easiest way to do this would be to build your package on a Raspberry Pi 1/2/Zero, or to open an issue to have it added to our [addon-builder](https://github.com/mozilla-iot/addon-builder).
 
 ## Implementation: The Nitty Gritty
 
