@@ -67,6 +67,7 @@ The files required for this method don't exist past 0.11, but the instructions s
 
 ### General
 
+* [[HOWTO: Create an add-on]]
 * [Add-on Guidelines](https://github.com/mozilla-iot/addon-list/blob/master/guidelines.md)
 * Examples:
     * [Adapter](https://github.com/mozilla-iot/example-adapter)
