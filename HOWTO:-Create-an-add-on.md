@@ -4,7 +4,7 @@ This guide will help you create an add-on for the WebThings Gateway.
 
 ### Add-on
 
-An add-on is a collection of code that the gateway runs to gain new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of devices: adapter, notifier, and extension.
+An add-on is a collection of code that the gateway runs to gain new features. This is loosely modeled after the add-on system in Firefox where each add-on adds to the functionality of your gateway in new and exciting ways. There are three primary classes of addons: adapter, notifier, and extension.
 
 ### Adapter Add-on
 
@@ -16,7 +16,7 @@ An adapter object manages communication with a device or set of devices. This co
 
 #### Device
 
-A device is just that, a hardware device, such as a smart plug, light bulb, or temperature sensor. It could also be a virtual device, such as a weather device which provides current weather conditions from a cloud service.
+A device is just that, a hardware device, such as a smart plug, light bulb, or temperature sensor. It could also be a virtual device, such as a weather device that provides current weather conditions from a cloud service.
 
 #### Property
 
