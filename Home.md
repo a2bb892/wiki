@@ -26,7 +26,14 @@
 
 #### The new way
 
-This is the process as of 0.12. Run the following inside a cloned gateway repo.
+This is the process as of 0.12. You can build on either Linux or macOS. You will need the following prerequisites:
+* Docker
+* (On Linux) qemu
+* (On Linux) qemu-user-static
+* (On Linux) binfmt-support
+* (On Linux) you will need the `loop` kernel module to be loaded, e.g. `sudo modprobe loop`
+
+After installing the packages above, run the following inside a cloned gateway repo.
 
 ```sh
 cd <gateway>/image
