@@ -191,7 +191,7 @@ Most Wi-Fi and BLE devices should work. Below is a list of _tested_ devices.
 ### Tasmota
 
 * [Koogeek KLUP1](https://blakadder.github.io/templates/kogeek_KLUP1.html) The UK version after flashing with Tasmota supported by the Tasmota Adapter  
-* [Arlec Smart Plug PC190HA](https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p0135440) (AU) -[Instructions](../Arlec-Smart-Plug)
+* [Arlec Smart Plug PC190HA](https://www.bunnings.com.au/arlec-smart-plug-in-socket-with-grid-connect_p0135440) (AU) -[Instructions](Arlec-Smart-Plug)
 
 ### Other
 
