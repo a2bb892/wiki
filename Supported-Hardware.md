@@ -128,6 +128,7 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
   * [Foscam R2](https://www.foscam.com/R2.html) IP camera (supports ONVIF)
 * Google
   * [Chromecast](https://store.google.com/category/home_entertainment)
+  * [Google Home Mini](https://store.google.com/ca/product/google_home_mini)
 * LG
   * [webOS-based Smart Televisions](https://www.lg.com/us/tvs)
 * LIFX
