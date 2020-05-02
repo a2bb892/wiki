@@ -3,7 +3,7 @@ These are the steps I used to setup the Turris Omnia router.
 My router was running Turris OS version 3.11.2 with kernel version 4.4.169-7bc33afbb1b35f5830b2b1b42c9cd8a0-2
 
 # Initial Setup
-From a factory reset (should be the same as fresh out of the box). If needed, [this page](https://doc.turris.cz/doc/en/howto/omnia_factory_reset) describes how to perform a factory reset.
+From a factory reset (should be the same as fresh out of the box). If needed, [this page](https://docs.turris.cz/hw/omnia/rescue_modes/) describes how to perform a factory reset.
 * Disconnect all ethernet cables
 * Connect an ethernet cable from your computer or laptop to one of the LAN ports
 * In your browser connect to 192.168.1.1. This connects you to the Foris web interface.
