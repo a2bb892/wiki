@@ -153,9 +153,9 @@ working. This may depend on the other "router" devices found on the Zigbee netwo
 * Sonos
   * [Speakers](https://www.sonos.com/en-us/shop)
 * TP-Link
-  * [Bulbs](http://www.tp-link.com/us/home-networking/smart-home/smart-bulbs)
-  * [Switches](http://www.tp-link.com/us/home-networking/smart-home/smart-switches)
-  * [Plugs](http://www.tp-link.com/us/home-networking/smart-home/smart-plugs)
+  * [Bulbs](https://www.kasasmart.com/us/products/smart-lighting)
+  * [Switches](https://www.kasasmart.com/us/products/smart-switches)
+  * [Plugs](https://www.kasasmart.com/us/products/smart-plugs)
 * Wemo
   * [Switches &amp; Plugs](http://www.wemo.com/products/)
 * Yeelight
